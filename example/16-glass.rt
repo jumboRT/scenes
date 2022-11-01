@@ -1,0 +1,17 @@
+checker_def tex_checker 238,183,23 169,91,11 1 1
+
+mat_beg mat_plane
+	diffuse 1 tex_checker
+mat_end
+
+mat_beg mat_sphere
+	refractive_index 1.5
+	transmissive 1 255,255,255
+	specular 1 255,255,255
+mat_end
+
+A 0.1 255,255,255
+C 0,0,0 1,0,0 90
+L 0,-10,10 1 255,255,255
+pl 10,0,-5 0,0,1 mat_plane
+sp 10,0,0 5 mat_sphere

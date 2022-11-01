@@ -1,0 +1,12 @@
+$ default tex_def_filtered tex_normal scenes/example/normal.bmp
+$ unfiltered tex_def tex_normal scenes/example/normal.bmp
+
+mat_beg mat_sphere
+	diffuse 1 238,183,23
+	normal tex_normal
+mat_end
+
+A 0.1 255,255,255
+C 0,0,0 1,0,0 90
+L 0,-10,10 1 255,255,255
+sp 10,0,0 5 mat_sphere

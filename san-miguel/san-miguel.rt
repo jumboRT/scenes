@@ -1,0 +1,1741 @@
+$ default C 10.5,0.4,2.1 1,1,0 90
+$ cam1 C 24.942810,-0.670604,8.135275 -0.707108,-0.707104,-0.000000 90
+$ cam2 C 25.015938,-3.157949,8.135275 -0.707105,0.707107,-0.000000 90
+$ cam3 C 24.442804,-3.268679,8.135275 -0.707105,0.707107,-0.000000 90
+$ cam4 C 26.513630,0.933079,8.135275 -0.933011,0.250001,-0.258819 90
+A 1 121,166,255
+mat_beg mat_sun
+	emission 20 255,255,255
+mat_end
+sp 0,0,100 100 mat_sun
+tex_def tex_individual_b_753d81e9 scenes/san-miguel/textures/individual_b.bmp
+tex_def tex_cenicero_be50f73a scenes/san-miguel/textures/cenicero.bmp
+tex_def tex_ceramic_tile_2931b423 scenes/san-miguel/textures/ceramic_tile.bmp
+tex_def tex_jardinera_1_color_cb9154ea scenes/san-miguel/textures/jardinera_1_color.bmp
+tex_def tex_N_jardinera_1_displacement_2_868a3bbc scenes/san-miguel/textures/N_jardinera_1_displacement_2.bmp
+tex_def tex_losa_82736031 scenes/san-miguel/textures/losa.bmp
+tex_def tex_moldura2piso_color_e4aace7b scenes/san-miguel/textures/moldura2piso_color.bmp
+tex_def tex_N_moldura2piso_bump_c1c94e45 scenes/san-miguel/textures/N_moldura2piso_bump.bmp
+tex_def tex_Maceta_B2_Color_bb8e195e scenes/san-miguel/textures/Maceta_B2_Color.bmp
+tex_def tex_N_Maceta_B_Bump_28ee9d62 scenes/san-miguel/textures/N_Maceta_B_Bump.bmp
+tex_def tex_Maceta_C_Color_53c5a833 scenes/san-miguel/textures/Maceta_C_Color.bmp
+tex_def tex_N_Maceta_C_Bump_60f459f0 scenes/san-miguel/textures/N_Maceta_C_Bump.bmp
+tex_def tex_Maceta_C2_Color_03944c68 scenes/san-miguel/textures/Maceta_C2_Color.bmp
+tex_def tex_Maceta_D2_Color_0_4ee51279 scenes/san-miguel/textures/Maceta_D2_Color_0.bmp
+tex_def tex_N_Maceta_D_Bump_0_828eaa6a scenes/san-miguel/textures/N_Maceta_D_Bump_0.bmp
+tex_def tex_dracaena_fragrans_leaf_51b89485 scenes/san-miguel/textures/dracaena_fragrans_leaf.bmp
+tex_def tex_BS01brk_4f113491 scenes/san-miguel/textures/BS01brk.bmp
+tex_def tex_BS01lef_85e1ad7c scenes/san-miguel/textures/BS01lef.bmp
+tex_def tex_BS01flo1_a8749e72 scenes/san-miguel/textures/BS01flo1.bmp
+tex_def tex_BS01flo2_17367070 scenes/san-miguel/textures/BS01flo2.bmp
+tex_def tex_aglaonema_leaf_6e18efe2 scenes/san-miguel/textures/aglaonema_leaf.bmp
+tex_def tex_aglaonema_bark_e5775485 scenes/san-miguel/textures/aglaonema_bark.bmp
+tex_def tex_FL13pet1_8f62f587 scenes/san-miguel/textures/FL13pet1.bmp
+tex_def tex_piso_rustico_59d61293 scenes/san-miguel/textures/piso_rustico.bmp
+tex_def tex_piso_rustico_Spec_ea868a24 scenes/san-miguel/textures/piso_rustico_Spec.bmp
+tex_def tex_N_piso_rustico_displace2_dc59a41c scenes/san-miguel/textures/N_piso_rustico_displace2.bmp
+tex_def tex_FL16stm_5ee085cf scenes/san-miguel/textures/FL16stm.bmp
+tex_def tex_FL16lef1_096fa4a0 scenes/san-miguel/textures/FL16lef1.bmp
+tex_def tex_FL16pet1_3a8cac01 scenes/san-miguel/textures/FL16pet1.bmp
+tex_def tex_FL16lef3_d94ce7b6 scenes/san-miguel/textures/FL16lef3.bmp
+tex_def tex_TR14lef1_9d13efa0 scenes/san-miguel/textures/TR14lef1.bmp
+tex_def tex_ampelopsis_brevipedunculata_bark_eab58164 scenes/san-miguel/textures/ampelopsis_brevipedunculata_bark.bmp
+tex_def tex_HP19stm1_f04f7575 scenes/san-miguel/textures/HP19stm1.bmp
+tex_def tex_HP19stm2_5ed2a269 scenes/san-miguel/textures/HP19stm2.bmp
+tex_def tex_HP19lef2_bf8757bf scenes/san-miguel/textures/HP19lef2.bmp
+tex_def tex_madera_triplay_01_c3a4bb3e scenes/san-miguel/textures/madera_triplay_01.bmp
+tex_def tex_HP19lef3_4663c428 scenes/san-miguel/textures/HP19lef3.bmp
+tex_def tex_FL15lef1_cfe5f5ac scenes/san-miguel/textures/FL15lef1.bmp
+tex_def tex_FL15cnt2_10ef8a5c scenes/san-miguel/textures/FL15cnt2.bmp
+tex_def tex_FL15stm_269c3c97 scenes/san-miguel/textures/FL15stm.bmp
+tex_def tex_FL15pet2_cb1f93e9 scenes/san-miguel/textures/FL15pet2.bmp
+tex_def tex_FL15lef2_dafd9472 scenes/san-miguel/textures/FL15lef2.bmp
+tex_def tex_FL15cnt1_c49f6100 scenes/san-miguel/textures/FL15cnt1.bmp
+tex_def tex_rust_a1_3a5616b4 scenes/san-miguel/textures/rust_a1.bmp
+tex_def tex_HP07lef1_0840d609 scenes/san-miguel/textures/HP07lef1.bmp
+tex_def tex_HP07stm1_8cf40668 scenes/san-miguel/textures/HP07stm1.bmp
+tex_def tex_HP07lef2_dcef91d1 scenes/san-miguel/textures/HP07lef2.bmp
+tex_def tex_HP07stm2_52823073 scenes/san-miguel/textures/HP07stm2.bmp
+tex_def tex_FL11pet1_1b1c981b scenes/san-miguel/textures/FL11pet1.bmp
+tex_def tex_FL11pet2_54732035 scenes/san-miguel/textures/FL11pet2.bmp
+tex_def tex_FL11sta_cef49a1c scenes/san-miguel/textures/FL11sta.bmp
+tex_def tex_FL11pet3_272909be scenes/san-miguel/textures/FL11pet3.bmp
+tex_def tex_FL11pet4_f3ec1aa2 scenes/san-miguel/textures/FL11pet4.bmp
+tex_def tex_muros_a_5df41163 scenes/san-miguel/textures/muros_a.bmp
+tex_def tex_FL11lef1_14f5459c scenes/san-miguel/textures/FL11lef1.bmp
+tex_def tex_FL11lef2_9a20e40a scenes/san-miguel/textures/FL11lef2.bmp
+tex_def tex_FL11stm_e3bd3586 scenes/san-miguel/textures/FL11stm.bmp
+tex_def tex_HP17lef1_a05fc811 scenes/san-miguel/textures/HP17lef1.bmp
+tex_def tex_HP17lef2_55ad23f0 scenes/san-miguel/textures/HP17lef2.bmp
+tex_def tex_muros_b1_4d927486 scenes/san-miguel/textures/muros_b1.bmp
+tex_def tex_N_muros_b1_ad7703b2 scenes/san-miguel/textures/N_muros_b1.bmp
+tex_def tex_HP17stm_a1e8d908 scenes/san-miguel/textures/HP17stm.bmp
+tex_def tex_HP11stm_2bd35b0f scenes/san-miguel/textures/HP11stm.bmp
+tex_def tex_N_HP11stm_25b232fb scenes/san-miguel/textures/N_HP11stm.bmp
+tex_def tex_HP11lef2_1cb0dc34 scenes/san-miguel/textures/HP11lef2.bmp
+tex_def tex_N_hp13lef1_bump_9d075059 scenes/san-miguel/textures/N_hp13lef1_bump.bmp
+tex_def tex_FL13pet2_901307ef scenes/san-miguel/textures/FL13pet2.bmp
+tex_def tex_FL13pet3_04fb1992 scenes/san-miguel/textures/FL13pet3.bmp
+tex_def tex_FL13stm_378d3695 scenes/san-miguel/textures/FL13stm.bmp
+tex_def tex_FL13lef5_a44d7ae5 scenes/san-miguel/textures/FL13lef5.bmp
+tex_def tex_FL13lef4_f40bf56e scenes/san-miguel/textures/FL13lef4.bmp
+tex_def tex_FL13lef1_4ba339f1 scenes/san-miguel/textures/FL13lef1.bmp
+tex_def tex_muros_c2_a69427b6 scenes/san-miguel/textures/muros_c2.bmp
+tex_def tex_elaeagnus_umbellate_bark_6bbad4b4 scenes/san-miguel/textures/elaeagnus_umbellate_bark.bmp
+tex_def tex_impatiens_newguinea_hybrids_petal_1aab4fb8 scenes/san-miguel/textures/impatiens_newguinea_hybrids_petal.bmp
+tex_def tex_citrus_limon_leaf_4c530cd0 scenes/san-miguel/textures/citrus_limon_leaf.bmp
+tex_def tex_HP13stm2_77b87ca7 scenes/san-miguel/textures/HP13stm2.bmp
+tex_def tex_HP13lef2_9d214b76 scenes/san-miguel/textures/HP13lef2.bmp
+tex_def tex_HP13lef3_e7f6e4c8 scenes/san-miguel/textures/HP13lef3.bmp
+tex_def tex_BS04lef_ae7048d8 scenes/san-miguel/textures/BS04lef.bmp
+tex_def tex_BS04flo_d1ce29db scenes/san-miguel/textures/BS04flo.bmp
+tex_def tex_cantera_naranja_liso_c2753a65 scenes/san-miguel/textures/cantera_naranja_liso.bmp
+tex_def tex_muros_f_075ca0a3 scenes/san-miguel/textures/muros_f.bmp
+tex_def tex_BS04brk_de164210 scenes/san-miguel/textures/BS04brk.bmp
+tex_def tex_FL12lef1_eff367d5 scenes/san-miguel/textures/FL12lef1.bmp
+tex_def tex_FL12pet2_28cf78fd scenes/san-miguel/textures/FL12pet2.bmp
+tex_def tex_FL12pis1_f2f27801 scenes/san-miguel/textures/FL12pis1.bmp
+tex_def tex_FL12sta1_fdd037b0 scenes/san-miguel/textures/FL12sta1.bmp
+tex_def tex_FL12stm_b430cfb6 scenes/san-miguel/textures/FL12stm.bmp
+tex_def tex_FL12pet1_b0c247d7 scenes/san-miguel/textures/FL12pet1.bmp
+tex_def tex_HP01stm1_e59e664c scenes/san-miguel/textures/HP01stm1.bmp
+tex_def tex_muros_e_cd1ee3f7 scenes/san-miguel/textures/muros_e.bmp
+tex_def tex_HP01stm2_e8b894b9 scenes/san-miguel/textures/HP01stm2.bmp
+tex_def tex_FL17lef6_dc67d142 scenes/san-miguel/textures/FL17lef6.bmp
+tex_def tex_HP01lef2_43d535c2 scenes/san-miguel/textures/HP01lef2.bmp
+tex_def tex_HP01lef1_558bcd1a scenes/san-miguel/textures/HP01lef1.bmp
+tex_def tex_HP01pet3_a1f87d06 scenes/san-miguel/textures/HP01pet3.bmp
+tex_def tex_FL03lef1_4c5e1b50 scenes/san-miguel/textures/FL03lef1.bmp
+tex_def tex_muros_d_019c52f2 scenes/san-miguel/textures/muros_d.bmp
+tex_def tex_FL04lef1_fd779258 scenes/san-miguel/textures/FL04lef1.bmp
+tex_def tex_FL04lef2_2ccd4f65 scenes/san-miguel/textures/FL04lef2.bmp
+tex_def tex_FL04pet1_06833673 scenes/san-miguel/textures/FL04pet1.bmp
+tex_def tex_FL04cnt2_a42feb55 scenes/san-miguel/textures/FL04cnt2.bmp
+tex_def tex_FL04cnt1_f3f2dab4 scenes/san-miguel/textures/FL04cnt1.bmp
+tex_def tex_FL04stm_fb7da463 scenes/san-miguel/textures/FL04stm.bmp
+tex_def tex_TR02lef5_616cc396 scenes/san-miguel/textures/TR02lef5.bmp
+tex_def tex_quercus_rubra_bark_8f3e6aa1 scenes/san-miguel/textures/quercus_rubra_bark.bmp
+tex_def tex_FL19pe13_f96b5f75 scenes/san-miguel/textures/FL19pe13.bmp
+tex_def tex_FL19pe16_fdf7c524 scenes/san-miguel/textures/FL19pe16.bmp
+tex_def tex_muros_g_7574d5a3 scenes/san-miguel/textures/muros_g.bmp
+tex_def tex_FL19pe14_3f239c81 scenes/san-miguel/textures/FL19pe14.bmp
+tex_def tex_FL19pe15_db2131cd scenes/san-miguel/textures/FL19pe15.bmp
+tex_def tex_FL19lef4_68590eff scenes/san-miguel/textures/FL19lef4.bmp
+tex_def tex_FL19lef2_f209c9ef scenes/san-miguel/textures/FL19lef2.bmp
+tex_def tex_FL19lef3_38dc57d7 scenes/san-miguel/textures/FL19lef3.bmp
+tex_def tex_FL19stm_06a48c8f scenes/san-miguel/textures/FL19stm.bmp
+tex_def tex_HP04lef2_731bc56f scenes/san-miguel/textures/HP04lef2.bmp
+tex_def tex_zebrina_pendula_bark_8a5fb79b scenes/san-miguel/textures/zebrina_pendula_bark.bmp
+tex_def tex_BL05lef2_52ed1fb6 scenes/san-miguel/textures/BL05lef2.bmp
+tex_def tex_hypoestes_phyllostachya_bark_2079133a scenes/san-miguel/textures/hypoestes_phyllostachya_bark.bmp
+tex_def tex_muros_h_5e78786c scenes/san-miguel/textures/muros_h.bmp
+tex_def tex_FL29cnt1_a3dbe678 scenes/san-miguel/textures/FL29cnt1.bmp
+tex_def tex_FL29cnt2_76f24840 scenes/san-miguel/textures/FL29cnt2.bmp
+tex_def tex_FL29lef_87e92b83 scenes/san-miguel/textures/FL29lef.bmp
+tex_def tex_FL29twg_2ddfb9b4 scenes/san-miguel/textures/FL29twg.bmp
+tex_def tex_FL29pet1_0c179bfc scenes/san-miguel/textures/FL29pet1.bmp
+tex_def tex_FL29pet2_9882aa06 scenes/san-miguel/textures/FL29pet2.bmp
+tex_def tex_FL29stm1_e330ce8d scenes/san-miguel/textures/FL29stm1.bmp
+tex_def tex_FL29stm2_e48f692f scenes/san-miguel/textures/FL29stm2.bmp
+tex_def tex_muros_l_55f50e36 scenes/san-miguel/textures/muros_l.bmp
+tex_def tex_FL17lef1_b2c5d10b scenes/san-miguel/textures/FL17lef1.bmp
+tex_def tex_FL17lef2_4865c6ea scenes/san-miguel/textures/FL17lef2.bmp
+tex_def tex_FL17pet5_f0b3e7d1 scenes/san-miguel/textures/FL17pet5.bmp
+tex_def tex_FL17stm_d0562f62 scenes/san-miguel/textures/FL17stm.bmp
+tex_def tex_FL17cnt_08760760 scenes/san-miguel/textures/FL17cnt.bmp
+tex_def tex_FL17lef3_991f741b scenes/san-miguel/textures/FL17lef3.bmp
+tex_def tex_FL17pet1_e9065025 scenes/san-miguel/textures/FL17pet1.bmp
+tex_def tex_muros_j_5a301356 scenes/san-miguel/textures/muros_j.bmp
+tex_def tex_FL17lef5_6181c402 scenes/san-miguel/textures/FL17lef5.bmp
+tex_def tex_FL17pet2_19b3e14f scenes/san-miguel/textures/FL17pet2.bmp
+tex_def tex_fittonia_verschaffeltii_bark_5f51e2b4 scenes/san-miguel/textures/fittonia_verschaffeltii_bark.bmp
+tex_def tex_EU15lef_fb913c3e scenes/san-miguel/textures/EU15lef.bmp
+tex_def tex_FL24stm_06f0b0d7 scenes/san-miguel/textures/FL24stm.bmp
+tex_def tex_silla_d_piel_d204b64b scenes/san-miguel/textures/silla_d_piel.bmp
+tex_def tex_N_silla_d_piel_bump_5618ef76 scenes/san-miguel/textures/N_silla_d_piel_bump.bmp
+tex_def tex_WOOD08_548d085a scenes/san-miguel/textures/WOOD08.bmp
+tex_def tex_N_WOOD08_Bump_ae0c8dac scenes/san-miguel/textures/N_WOOD08_Bump.bmp
+tex_def tex_tapa_talabera_cbae7c02 scenes/san-miguel/textures/tapa_talabera.bmp
+tex_def tex_tela_mesa_d_2ebf5b4f scenes/san-miguel/textures/tela_mesa_d.bmp
+tex_def tex_tela_mesa_b_29aca077 scenes/san-miguel/textures/tela_mesa_b.bmp
+tex_def tex_Finishes.Flooring.Carpet.Loop.5_acdb1142 scenes/san-miguel/textures/Finishes.Flooring.Carpet.Loop.5.bmp
+tex_def tex_N_Finishes.Flooring.Carpet.Loop.5_12c55fcf scenes/san-miguel/textures/N_Finishes.Flooring.Carpet.Loop.5.bmp
+tex_def tex_BWK_1024_17cdad43 scenes/san-miguel/textures/BWK_1024.bmp
+tex_def tex_bwk_1024_Spec2_5d0af0ea scenes/san-miguel/textures/bwk_1024_Spec2.bmp
+tex_def tex_N_bwk_1024_Bump_7f2629f0 scenes/san-miguel/textures/N_bwk_1024_Bump.bmp
+tex_def tex_tela_blanca_0eab1549 scenes/san-miguel/textures/tela_blanca.bmp
+tex_def tex_N_tela_blanca_66f5c4f5 scenes/san-miguel/textures/N_tela_blanca.bmp
+tex_def tex_muros_m_9cd20419 scenes/san-miguel/textures/muros_m.bmp
+tex_def tex_Fierro_A_5effd2ff scenes/san-miguel/textures/Fierro_A.bmp
+tex_def tex_N_Fierro_A_Bump_ea4c2355 scenes/san-miguel/textures/N_Fierro_A_Bump.bmp
+tex_def tex_wood.3.Bubinga_c4cf0caa scenes/san-miguel/textures/wood.3.Bubinga.bmp
+tex_def tex_tela_silla_b_4791341e scenes/san-miguel/textures/tela_silla_b.bmp
+tex_def tex_plato_a_775c68d6 scenes/san-miguel/textures/plato_a.bmp
+tex_def tex_muros_n_96604704 scenes/san-miguel/textures/muros_n.bmp
+tex_def tex_moldura_volado_a96d470b scenes/san-miguel/textures/moldura_volado.bmp
+tex_def tex_muros_b_af72c329 scenes/san-miguel/textures/muros_b.bmp
+tex_def tex_muros_p__04182f2a scenes/san-miguel/textures/muros_p_.bmp
+tex_def tex_muros_q3_c6ee8a10 scenes/san-miguel/textures/muros_q3.bmp
+tex_def tex_muros_q_e4aed798 scenes/san-miguel/textures/muros_q.bmp
+tex_def tex_muros_q4_dbcb989e scenes/san-miguel/textures/muros_q4.bmp
+tex_def tex_techo_4b86645a scenes/san-miguel/textures/techo.bmp
+tex_def tex_052terresable_b14ecea2 scenes/san-miguel/textures/052terresable.bmp
+tex_def tex_muros_q_patio2_4f5c0b8b scenes/san-miguel/textures/muros_q_patio2.bmp
+tex_def tex_arcos_lisos_2_color_452ce565 scenes/san-miguel/textures/arcos_lisos_2_color.bmp
+tex_def tex_N_arcos_lisos_2_bump_ed452480 scenes/san-miguel/textures/N_arcos_lisos_2_bump.bmp
+tex_def tex_moldura_techo_41ac6b63 scenes/san-miguel/textures/moldura_techo.bmp
+tex_def tex_N_moldura_techo_bump_235e1724 scenes/san-miguel/textures/N_moldura_techo_bump.bmp
+tex_def tex_arcos_lisos_3_color_1_5633a4eb scenes/san-miguel/textures/arcos_lisos_3_color_1.bmp
+tex_def tex_N_arcos_lisos_3_bump_1_aa3283d9 scenes/san-miguel/textures/N_arcos_lisos_3_bump_1.bmp
+tex_def tex_muros_b2_4931c6b9 scenes/san-miguel/textures/muros_b2.bmp
+tex_def tex_madera_rustica_2_a98007bc scenes/san-miguel/textures/madera_rustica_2.bmp
+tex_def tex_muros_k_369d99fb scenes/san-miguel/textures/muros_k.bmp
+tex_def tex_concreto_01_9775ed4b scenes/san-miguel/textures/concreto_01.bmp
+tex_def tex_Vigas_A2_36f06106 scenes/san-miguel/textures/Vigas_A2.bmp
+tex_def tex_N_vigas_a2_bump_01fa23cc scenes/san-miguel/textures/N_vigas_a2_bump.bmp
+tex_def tex_techo_01_70a7fbad scenes/san-miguel/textures/techo_01.bmp
+tex_def tex_piso_patio_exterior_a8d0bdf3 scenes/san-miguel/textures/piso_patio_exterior.bmp
+tex_def tex_N_piso_patio_exterior_displace_inv_26f787b0 scenes/san-miguel/textures/N_piso_patio_exterior_displace_inv.bmp
+tex_def tex_fuente_piedra_01_34296566 scenes/san-miguel/textures/fuente_piedra_01.bmp
+tex_def tex_escalera_color_4541ebd0 scenes/san-miguel/textures/escalera_color.bmp
+tex_def tex_N_escalera_bump_1f30f04e scenes/san-miguel/textures/N_escalera_bump.bmp
+tex_def tex_arco_frente_5825005a scenes/san-miguel/textures/arco_frente.bmp
+tex_def tex_N_arco_frente_displace_inv_3b47026b scenes/san-miguel/textures/N_arco_frente_displace_inv.bmp
+tex_def tex_D30_Smiguel_2003_7785_1da3f872 scenes/san-miguel/textures/D30_Smiguel_2003_7785.bmp
+tex_def tex_0001_carros_7217b4e0 scenes/san-miguel/textures/0001_carros.bmp
+tex_def tex_D30_Smiguel_2003_7815_9f923109 scenes/san-miguel/textures/D30_Smiguel_2003_7815.bmp
+tex_def tex_D30_Smiguel_2003_7812_b165d7d6 scenes/san-miguel/textures/D30_Smiguel_2003_7812.bmp
+tex_def tex_027_Cola_Caballo_06-30-1997_9915569c scenes/san-miguel/textures/027_Cola_Caballo_06-30-1997.bmp
+tex_def tex_D30_Smiguel_2003_7843_59132cfa scenes/san-miguel/textures/D30_Smiguel_2003_7843.bmp
+tex_def tex_pared_barro_afinado_f41149fd scenes/san-miguel/textures/pared_barro_afinado.bmp
+tex_def tex_D30_Smiguel_2003_7758_2062497c scenes/san-miguel/textures/D30_Smiguel_2003_7758.bmp
+tex_def tex_D30_Smiguel_2003_7833_61a5c387 scenes/san-miguel/textures/D30_Smiguel_2003_7833.bmp
+tex_def tex_D30_Smiguel_2003_7768_317afd4a scenes/san-miguel/textures/D30_Smiguel_2003_7768.bmp
+tex_def tex_madera_marcos_018072cc scenes/san-miguel/textures/madera_marcos.bmp
+tex_def tex_postes_barandal_color_9e7ad551 scenes/san-miguel/textures/postes_barandal_color.bmp
+tex_def tex_N_postes_barandal_bump_a8ae193f scenes/san-miguel/textures/N_postes_barandal_bump.bmp
+tex_def tex_piso_patio_exterior2_e4f8c6fa scenes/san-miguel/textures/piso_patio_exterior2.bmp
+tex_def tex_rust_detalle_a4255c59 scenes/san-miguel/textures/rust_detalle.bmp
+tex_def tex_N_rust_detalle_bump_bd16f1d3 scenes/san-miguel/textures/N_rust_detalle_bump.bmp
+tex_def tex_madera_barandal_esc_2_276a39c7 scenes/san-miguel/textures/madera_barandal_esc_2.bmp
+tex_def tex_pared_calle_222e4f87 scenes/san-miguel/textures/pared_calle.bmp
+tex_def tex_fierro_b_1e1c0c87 scenes/san-miguel/textures/fierro_b.bmp
+tex_def tex_concreto_02_0ad3f66c scenes/san-miguel/textures/concreto_02.bmp
+tex_def tex_candil_madera_432521c7 scenes/san-miguel/textures/candil_madera.bmp
+tex_def tex_metal_viejo_2_b53447a0 scenes/san-miguel/textures/metal_viejo_2.bmp
+tex_def tex_N_metal_viejo_2_ec13ae62 scenes/san-miguel/textures/N_metal_viejo_2.bmp
+tex_def tex_detmoldura_06_color_5f5354b9 scenes/san-miguel/textures/detmoldura_06_color.bmp
+tex_def tex_N_detmoldura_06_bump_d771f420 scenes/san-miguel/textures/N_detmoldura_06_bump.bmp
+tex_def tex_detmoldura_05_color_24579b3c scenes/san-miguel/textures/detmoldura_05_color.bmp
+tex_def tex_N_detmoldura_05_bump_707c7415 scenes/san-miguel/textures/N_detmoldura_05_bump.bmp
+tex_def tex_detmoldura_04_color_8355170f scenes/san-miguel/textures/detmoldura_04_color.bmp
+tex_def tex_N_detmoldura_04_bump_3acfcf04 scenes/san-miguel/textures/N_detmoldura_04_bump.bmp
+tex_def tex_detmoldura_03_color_28cf0b74 scenes/san-miguel/textures/detmoldura_03_color.bmp
+tex_def tex_N_detmoldura_03_bump_59a22578 scenes/san-miguel/textures/N_detmoldura_03_bump.bmp
+tex_def tex_detmoldura_02_color_79249212 scenes/san-miguel/textures/detmoldura_02_color.bmp
+tex_def tex_N_detmoldura_02_bump_e179e8bd scenes/san-miguel/textures/N_detmoldura_02_bump.bmp
+tex_def tex_detmoldura_01_color_b365258f scenes/san-miguel/textures/detmoldura_01_color.bmp
+tex_def tex_N_detmoldura_01_bump_1f2e43e6 scenes/san-miguel/textures/N_detmoldura_01_bump.bmp
+tex_def tex_escurridera_color_cc4c35cc scenes/san-miguel/textures/escurridera_color.bmp
+tex_def tex_N_escurridera_bump_24041403 scenes/san-miguel/textures/N_escurridera_bump.bmp
+tex_def tex_sm_leaf_seca_03b_32332cd0 scenes/san-miguel/textures/sm_leaf_seca_03b.bmp
+tex_def tex_sm_leaf_seca_02b_db45de60 scenes/san-miguel/textures/sm_leaf_seca_02b.bmp
+tex_def tex_sm_hoja_c_seca_e5808ae0 scenes/san-miguel/textures/sm_hoja_c_seca.bmp
+tex_def tex_marco_puerta_1_71ca5d99 scenes/san-miguel/textures/marco_puerta_1.bmp
+tex_def tex_N_marco_puerta_1_bump_ed30f886 scenes/san-miguel/textures/N_marco_puerta_1_bump.bmp
+tex_def tex_N_madera_barandal_esc_2_bump_0b806f01 scenes/san-miguel/textures/N_madera_barandal_esc_2_bump.bmp
+tex_def tex_mold_arco_01_color_bbd06966 scenes/san-miguel/textures/mold_arco_01_color.bmp
+tex_def tex_N_mold_arco_01_bump_215cff85 scenes/san-miguel/textures/N_mold_arco_01_bump.bmp
+tex_def tex_molduraterraza__color_0bbbdad5 scenes/san-miguel/textures/molduraterraza__color.bmp
+tex_def tex_N_molduraterraza_bump_ac65d10a scenes/san-miguel/textures/N_molduraterraza_bump.bmp
+tex_def tex_puerta_32174d0e scenes/san-miguel/textures/puerta.bmp
+tex_def tex_N_puerta_bump_b7725b8a scenes/san-miguel/textures/N_puerta_bump.bmp
+tex_def tex_Barro_2_ba1777c6 scenes/san-miguel/textures/Barro_2.bmp
+tex_def tex_columna_b_color_dfc968b8 scenes/san-miguel/textures/columna_b_color.bmp
+tex_def tex_N_columna_b_displacement_3_inv_da24f998 scenes/san-miguel/textures/N_columna_b_displacement_3_inv.bmp
+tex_def tex_water_bump_07557b20 scenes/san-miguel/textures/water_bump.bmp
+tex_def tex_fuente_piedra_02_813f7ab2 scenes/san-miguel/textures/fuente_piedra_02.bmp
+tex_def tex_fuente_azulejo_cd1ac748 scenes/san-miguel/textures/fuente_azulejo.bmp
+tex_def tex_sm_tronco_e5878150 scenes/san-miguel/textures/sm_tronco.bmp
+tex_def tex_N_sm_tronco_bump_bc2704e2 scenes/san-miguel/textures/N_sm_tronco_bump.bmp
+tex_def tex_sm_leaf_02a_81d2e01f scenes/san-miguel/textures/sm_leaf_02a.bmp
+tex_def tex_N_sm_leaf_02_bump_1f88f364 scenes/san-miguel/textures/N_sm_leaf_02_bump.bmp
+tex_def tex_sm_leaf_02b_0ae0a727 scenes/san-miguel/textures/sm_leaf_02b.bmp
+tex_def tex_sm_leaf_03a_6dfae5ce scenes/san-miguel/textures/sm_leaf_03a.bmp
+tex_def tex_bark06mi_4ece522d scenes/san-miguel/textures/bark06mi.bmp
+tex_def tex_N_bark06mi_68107090 scenes/san-miguel/textures/N_bark06mi.bmp
+tex_def tex_l33-upper_543f5884 scenes/san-miguel/textures/l33-upper.bmp
+tex_def tex_N_l33-upper_28e3e476 scenes/san-miguel/textures/N_l33-upper.bmp
+tex_def tex_l37-upper_7f89bda8 scenes/san-miguel/textures/l37-upper.bmp
+tex_def tex_N_l37-upper_041cca6d scenes/san-miguel/textures/N_l37-upper.bmp
+tex_def tex_l04-upper_8803ef61 scenes/san-miguel/textures/l04-upper.bmp
+tex_def tex_N_l04-upper_e16c7ca5 scenes/san-miguel/textures/N_l04-upper.bmp
+tex_def tex_Forja_Macetas_9b7b4de7 scenes/san-miguel/textures/Forja_Macetas.bmp
+tex_def tex_N_Forja_Macetas_bump_1354e757 scenes/san-miguel/textures/N_Forja_Macetas_bump.bmp
+tex_def tex_Maceta_A_Color_8ccdcaaf scenes/san-miguel/textures/Maceta_A_Color.bmp
+tex_def tex_N_Maceta_A_Bump_fc1438ee scenes/san-miguel/textures/N_Maceta_A_Bump.bmp
+tex_def tex_Maceta_A2_Color_26167dd5 scenes/san-miguel/textures/Maceta_A2_Color.bmp
+tex_def tex_Maceta_B_Color_6c2246db scenes/san-miguel/textures/Maceta_B_Color.bmp
+mat_beg mat_CafeChair_Metal
+    diffuse 1 (0.48,0.48,0.48)
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha (0,0,0,1)
+mat_end
+mat_beg mat_Default
+    diffuse 1 (0.48,0.48,0.48)
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha (0,0,0,1)
+mat_end
+mat_beg mat_material_032
+    diffuse 1 tex_individual_b_753d81e9
+    alpha filter (0,0,0,1) tex_individual_b_753d81e9
+mat_end
+mat_beg mat_material_033
+    diffuse 1 tex_cenicero_be50f73a
+    phong 1 (0.196078,0.196078,0.196078) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_cenicero_be50f73a
+mat_end
+mat_beg mat_material_034
+    diffuse 1 tex_ceramic_tile_2931b423
+    phong 1 (0.196078,0.196078,0.196078) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_ceramic_tile_2931b423
+mat_end
+mat_beg mat_material_038
+    diffuse 1 (0.086274,0.082353,0.07451)
+    phong 1 (0.449019,0.403922,0.354902) (1,1,1,8.0)
+    alpha (0,0,0,1)
+mat_end
+mat_beg mat_material_040
+    diffuse 1 (0.30195,0.875973,0.726676)
+    phong 1 (0.30195,0.875973,0.726676) (1,1,1,8.0)
+    alpha (0,0,0,1)
+mat_end
+mat_beg mat_material_041
+#    diffuse 1 (1,1,1)
+#    phong 1 (1,1,1) (1,1,1,8.0)
+#    alpha (0,0,0,0.5)
+	refractive_index 1.5
+	specular 1 (1,1,1)
+	transmissive 1 (1,1,1)
+	smooth
+mat_end
+mat_beg mat_material_042
+    diffuse 1 (0.142338,0.462081,0.235328)
+    phong 1 (0.142338,0.462081,0.235328) (1,1,1,8.0)
+    alpha (0,0,0,1)
+mat_end
+mat_beg mat_material_0
+    diffuse 1 (0.1,0.1,0.1)
+    phong 1 (0.5,0.5,0.5) (1,1,1,8.0)
+    alpha (0,0,0,1)
+mat_end
+mat_beg mat_material_1
+    diffuse 1 tex_jardinera_1_color_cb9154ea
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_jardinera_1_displacement_2_868a3bbc
+    alpha filter (0,0,0,1) tex_jardinera_1_color_cb9154ea
+mat_end
+mat_beg mat_material_10
+    diffuse 1 tex_losa_82736031
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_losa_82736031
+mat_end
+mat_beg mat_material_11
+    diffuse 1 tex_moldura2piso_color_e4aace7b
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_moldura2piso_bump_c1c94e45
+    alpha filter (0,0,0,1) tex_moldura2piso_color_e4aace7b
+mat_end
+mat_beg mat_material_12
+    diffuse 1 (0.75,0.75,0.75)
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha (0,0,0,1)
+mat_end
+mat_beg mat_material_127
+    diffuse 1 tex_Maceta_B2_Color_bb8e195e
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_Maceta_B_Bump_28ee9d62
+    alpha filter (0,0,0,1) tex_Maceta_B2_Color_bb8e195e
+mat_end
+mat_beg mat_material_128
+    diffuse 1 tex_Maceta_C_Color_53c5a833
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_Maceta_C_Bump_60f459f0
+    alpha filter (0,0,0,1) tex_Maceta_C_Color_53c5a833
+mat_end
+mat_beg mat_material_129
+    diffuse 1 tex_Maceta_C2_Color_03944c68
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_Maceta_C_Bump_60f459f0
+    alpha filter (0,0,0,1) tex_Maceta_C2_Color_03944c68
+mat_end
+mat_beg mat_material_13
+    diffuse 1 (0.54902,0.54902,0.54902)
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha (0,0,0,1)
+mat_end
+mat_beg mat_material_130
+    diffuse 1 tex_Maceta_D2_Color_0_4ee51279
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_Maceta_D_Bump_0_828eaa6a
+    alpha filter (0,0,0,1) tex_Maceta_D2_Color_0_4ee51279
+mat_end
+mat_beg mat_material_131
+    diffuse 1 tex_dracaena_fragrans_leaf_51b89485
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_dracaena_fragrans_leaf_51b89485
+mat_end
+mat_beg mat_material_132
+    diffuse 1 tex_BS01brk_4f113491
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_BS01brk_4f113491
+mat_end
+mat_beg mat_material_133
+    diffuse 1 tex_BS01lef_85e1ad7c
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_BS01lef_85e1ad7c
+mat_end
+mat_beg mat_material_134
+    diffuse 1 tex_BS01flo1_a8749e72
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_BS01flo1_a8749e72
+mat_end
+mat_beg mat_material_135
+    diffuse 1 tex_BS01flo2_17367070
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_BS01flo2_17367070
+mat_end
+mat_beg mat_material_136
+    diffuse 1 tex_aglaonema_leaf_6e18efe2
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_aglaonema_leaf_6e18efe2
+mat_end
+mat_beg mat_material_137
+    diffuse 1 tex_aglaonema_bark_e5775485
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_aglaonema_bark_e5775485
+mat_end
+mat_beg mat_material_138
+    diffuse 1 filter (0.147313,0.165899,0.988525) tex_aglaonema_leaf_6e18efe2
+    phong 1 (0.00589252,0.00663596,0.039541) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_aglaonema_leaf_6e18efe2
+mat_end
+mat_beg mat_material_139
+    diffuse 1 filter (0.445692,0.119083,0.004669) tex_FL13pet1_8f62f587
+    phong 1 (0.0178277,0.00476332,0.00018676) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL13pet1_8f62f587
+mat_end
+mat_beg mat_material_14
+    diffuse 1 tex_piso_rustico_59d61293
+    phong 1 filter (0.04,0.04,0.04) tex_piso_rustico_Spec_ea868a24 (1,1,1,8.0)
+    normal tex_N_piso_rustico_displace2_dc59a41c
+    alpha filter (0,0,0,1) tex_piso_rustico_59d61293
+mat_end
+mat_beg mat_material_140
+    diffuse 1 (0.008911,0.37788,0.531663)
+    phong 1 (0.00035644,0.0151152,0.0212665) (1,1,1,8.0)
+    alpha (0,0,0,1)
+mat_end
+mat_beg mat_material_141
+    diffuse 1 tex_FL16stm_5ee085cf
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL16stm_5ee085cf
+mat_end
+mat_beg mat_material_142
+    diffuse 1 tex_FL16lef1_096fa4a0
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL16lef1_096fa4a0
+mat_end
+mat_beg mat_material_143
+    diffuse 1 tex_FL16pet1_3a8cac01
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL16pet1_3a8cac01
+mat_end
+mat_beg mat_material_144
+    diffuse 1 tex_FL16lef3_d94ce7b6
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL16lef3_d94ce7b6
+mat_end
+mat_beg mat_material_145
+    diffuse 1 tex_TR14lef1_9d13efa0
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_TR14lef1_9d13efa0
+mat_end
+mat_beg mat_material_146
+    diffuse 1 tex_ampelopsis_brevipedunculata_bark_eab58164
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_ampelopsis_brevipedunculata_bark_eab58164
+mat_end
+mat_beg mat_material_147
+    diffuse 1 tex_HP19stm1_f04f7575
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_HP19stm1_f04f7575
+mat_end
+mat_beg mat_material_148
+    diffuse 1 tex_HP19stm2_5ed2a269
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_HP19stm2_5ed2a269
+mat_end
+mat_beg mat_material_149
+    diffuse 1 tex_HP19lef2_bf8757bf
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_HP19lef2_bf8757bf
+mat_end
+mat_beg mat_material_15
+    diffuse 1 tex_madera_triplay_01_c3a4bb3e
+    phong 1 (0.00454904,0.00454904,0.00454904) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_madera_triplay_01_c3a4bb3e
+mat_end
+mat_beg mat_material_150
+    diffuse 1 tex_HP19lef3_4663c428
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_HP19lef3_4663c428
+mat_end
+mat_beg mat_material_151
+    diffuse 1 tex_HP19lef2_bf8757bf
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_HP19lef2_bf8757bf
+mat_end
+mat_beg mat_material_152
+    diffuse 1 tex_FL15lef1_cfe5f5ac
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL15lef1_cfe5f5ac
+mat_end
+mat_beg mat_material_153
+    diffuse 1 tex_FL15cnt2_10ef8a5c
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL15cnt2_10ef8a5c
+mat_end
+mat_beg mat_material_154
+    diffuse 1 tex_FL15stm_269c3c97
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL15stm_269c3c97
+mat_end
+mat_beg mat_material_155
+    diffuse 1 tex_FL15pet2_cb1f93e9
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL15pet2_cb1f93e9
+mat_end
+mat_beg mat_material_156
+    diffuse 1 tex_FL15lef2_dafd9472
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL15lef2_dafd9472
+mat_end
+mat_beg mat_material_157
+    diffuse 1 tex_FL15cnt1_c49f6100
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL15cnt1_c49f6100
+mat_end
+mat_beg mat_material_158
+    diffuse 1 tex_FL15lef1_cfe5f5ac
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL15lef1_cfe5f5ac
+mat_end
+mat_beg mat_material_159
+    diffuse 1 tex_FL15lef2_dafd9472
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL15lef2_dafd9472
+mat_end
+mat_beg mat_material_16
+    diffuse 1 tex_rust_a1_3a5616b4
+    alpha filter (0,0,0,1) tex_rust_a1_3a5616b4
+mat_end
+mat_beg mat_material_160
+    diffuse 1 tex_FL15pet2_cb1f93e9
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL15pet2_cb1f93e9
+mat_end
+mat_beg mat_material_161
+    diffuse 1 tex_HP07lef1_0840d609
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_HP07lef1_0840d609
+mat_end
+mat_beg mat_material_162
+    diffuse 1 tex_HP07stm1_8cf40668
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_HP07stm1_8cf40668
+mat_end
+mat_beg mat_material_163
+    diffuse 1 tex_HP07lef2_dcef91d1
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_HP07lef2_dcef91d1
+mat_end
+mat_beg mat_material_164
+    diffuse 1 tex_HP07stm2_52823073
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_HP07stm2_52823073
+mat_end
+mat_beg mat_material_165
+    diffuse 1 tex_FL11pet1_1b1c981b
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL11pet1_1b1c981b
+mat_end
+mat_beg mat_material_166
+    diffuse 1 tex_FL11pet2_54732035
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL11pet2_54732035
+mat_end
+mat_beg mat_material_167
+    diffuse 1 tex_FL11sta_cef49a1c
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL11sta_cef49a1c
+mat_end
+mat_beg mat_material_168
+    diffuse 1 tex_FL11pet3_272909be
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL11pet3_272909be
+mat_end
+mat_beg mat_material_169
+    diffuse 1 tex_FL11pet4_f3ec1aa2
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL11pet4_f3ec1aa2
+mat_end
+mat_beg mat_material_17
+    diffuse 1 tex_muros_a_5df41163
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_muros_a_5df41163
+mat_end
+mat_beg mat_material_170
+    diffuse 1 tex_FL11lef1_14f5459c
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL11lef1_14f5459c
+mat_end
+mat_beg mat_material_171
+    diffuse 1 tex_FL11lef2_9a20e40a
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL11lef2_9a20e40a
+mat_end
+mat_beg mat_material_172
+    diffuse 1 tex_FL11stm_e3bd3586
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL11stm_e3bd3586
+mat_end
+mat_beg mat_material_173
+    diffuse 1 tex_FL11pet1_1b1c981b
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL11pet1_1b1c981b
+mat_end
+mat_beg mat_material_174
+    diffuse 1 tex_FL11pet2_54732035
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL11pet2_54732035
+mat_end
+mat_beg mat_material_175
+    diffuse 1 tex_FL11pet3_272909be
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL11pet3_272909be
+mat_end
+mat_beg mat_material_176
+    diffuse 1 tex_FL11pet4_f3ec1aa2
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL11pet4_f3ec1aa2
+mat_end
+mat_beg mat_material_177
+    diffuse 1 tex_FL11lef1_14f5459c
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL11lef1_14f5459c
+mat_end
+mat_beg mat_material_178
+    diffuse 1 tex_HP17lef1_a05fc811
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_HP17lef1_a05fc811
+mat_end
+mat_beg mat_material_179
+    diffuse 1 tex_HP17lef2_55ad23f0
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_HP17lef2_55ad23f0
+mat_end
+mat_beg mat_material_18
+    diffuse 1 tex_muros_b1_4d927486
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_muros_b1_ad7703b2
+    alpha filter (0,0,0,1) tex_muros_b1_4d927486
+mat_end
+mat_beg mat_material_180
+    diffuse 1 tex_HP17stm_a1e8d908
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_HP17stm_a1e8d908
+mat_end
+mat_beg mat_material_181
+    diffuse 1 tex_HP11stm_2bd35b0f
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_HP11stm_25b232fb
+    alpha filter (0,0,0,1) tex_HP11stm_2bd35b0f
+mat_end
+mat_beg mat_material_182
+    diffuse 1 tex_HP11lef2_1cb0dc34
+    phong 1 (0.00470588,0.00470588,0.00470588) (1,1,1,8.0)
+    normal tex_N_hp13lef1_bump_9d075059
+    alpha filter (0,0,0,1) tex_HP11lef2_1cb0dc34
+mat_end
+mat_beg mat_material_183
+    diffuse 1 tex_FL13pet1_8f62f587
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL13pet1_8f62f587
+mat_end
+mat_beg mat_material_184
+    diffuse 1 tex_FL13pet2_901307ef
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL13pet2_901307ef
+mat_end
+mat_beg mat_material_185
+    diffuse 1 tex_FL13pet3_04fb1992
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL13pet3_04fb1992
+mat_end
+mat_beg mat_material_186
+    diffuse 1 tex_FL13stm_378d3695
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL13stm_378d3695
+mat_end
+mat_beg mat_material_187
+    diffuse 1 tex_FL13lef5_a44d7ae5
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL13lef5_a44d7ae5
+mat_end
+mat_beg mat_material_188
+    diffuse 1 tex_FL13lef4_f40bf56e
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL13lef4_f40bf56e
+mat_end
+mat_beg mat_material_189
+    diffuse 1 tex_FL13lef1_4ba339f1
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL13lef1_4ba339f1
+mat_end
+mat_beg mat_material_19
+    diffuse 1 tex_muros_c2_a69427b6
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_muros_c2_a69427b6
+mat_end
+mat_beg mat_material_190
+    diffuse 1 tex_elaeagnus_umbellate_bark_6bbad4b4
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_elaeagnus_umbellate_bark_6bbad4b4
+mat_end
+mat_beg mat_material_191
+    diffuse 1 tex_impatiens_newguinea_hybrids_petal_1aab4fb8
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_impatiens_newguinea_hybrids_petal_1aab4fb8
+mat_end
+mat_beg mat_material_192
+    diffuse 1 tex_citrus_limon_leaf_4c530cd0
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_citrus_limon_leaf_4c530cd0
+mat_end
+mat_beg mat_material_193
+    diffuse 1 tex_HP13stm2_77b87ca7
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_HP13stm2_77b87ca7
+mat_end
+mat_beg mat_material_194
+    diffuse 1 filter (0.571184,0.601764,0.607166) tex_FL13lef1_4ba339f1
+    phong 1 (0.0228474,0.0240706,0.0242866) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL13lef1_4ba339f1
+mat_end
+mat_beg mat_material_195
+    diffuse 1 tex_HP13lef2_9d214b76
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_HP13lef2_9d214b76
+mat_end
+mat_beg mat_material_196
+    diffuse 1 tex_HP13stm2_77b87ca7
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_HP13stm2_77b87ca7
+mat_end
+mat_beg mat_material_197
+    diffuse 1 tex_HP13lef3_e7f6e4c8
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_HP13lef3_e7f6e4c8
+mat_end
+mat_beg mat_material_198
+    diffuse 1 tex_BS04lef_ae7048d8
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_BS04lef_ae7048d8
+mat_end
+mat_beg mat_material_199
+    diffuse 1 tex_BS04flo_d1ce29db
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_BS04flo_d1ce29db
+mat_end
+mat_beg mat_material_2
+    diffuse 1 tex_cantera_naranja_liso_c2753a65
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_cantera_naranja_liso_c2753a65
+mat_end
+mat_beg mat_material_20
+    diffuse 1 tex_muros_f_075ca0a3
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_muros_f_075ca0a3
+mat_end
+mat_beg mat_material_200
+    diffuse 1 tex_BS04brk_de164210
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_BS04brk_de164210
+mat_end
+mat_beg mat_material_201
+    diffuse 1 tex_FL12lef1_eff367d5
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL12lef1_eff367d5
+mat_end
+mat_beg mat_material_202
+    diffuse 1 tex_FL12pet2_28cf78fd
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL12pet2_28cf78fd
+mat_end
+mat_beg mat_material_203
+    diffuse 1 tex_FL12pis1_f2f27801
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL12pis1_f2f27801
+mat_end
+mat_beg mat_material_204
+    diffuse 1 tex_FL12sta1_fdd037b0
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL12sta1_fdd037b0
+mat_end
+mat_beg mat_material_205
+    diffuse 1 tex_FL12stm_b430cfb6
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL12stm_b430cfb6
+mat_end
+mat_beg mat_material_206
+    diffuse 1 tex_FL12pis1_f2f27801
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL12pis1_f2f27801
+mat_end
+mat_beg mat_material_207
+    diffuse 1 tex_FL12pet1_b0c247d7
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL12pet1_b0c247d7
+mat_end
+mat_beg mat_material_208
+    diffuse 1 tex_FL12stm_b430cfb6
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL12stm_b430cfb6
+mat_end
+mat_beg mat_material_209
+    diffuse 1 tex_HP01stm1_e59e664c
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_HP01stm1_e59e664c
+mat_end
+mat_beg mat_material_21
+    diffuse 1 tex_muros_e_cd1ee3f7
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_muros_e_cd1ee3f7
+mat_end
+mat_beg mat_material_210
+    diffuse 1 tex_HP01stm2_e8b894b9
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_HP01stm2_e8b894b9
+mat_end
+mat_beg mat_material_211
+    diffuse 1 tex_HP01stm1_e59e664c
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_HP01stm1_e59e664c
+mat_end
+mat_beg mat_material_212
+    diffuse 1 filter (0.340958,0.397245,1) tex_FL16pet1_3a8cac01
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL16pet1_3a8cac01
+mat_end
+mat_beg mat_material_213
+    diffuse 1 tex_HP01stm1_e59e664c
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_HP01stm1_e59e664c
+mat_end
+mat_beg mat_material_214
+    diffuse 1 tex_HP01stm2_e8b894b9
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_HP01stm2_e8b894b9
+mat_end
+mat_beg mat_material_215
+    diffuse 1 filter (0.858824,0.803922,0.141176) tex_FL17lef6_dc67d142
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL17lef6_dc67d142
+mat_end
+mat_beg mat_material_216
+    diffuse 1 tex_HP01lef2_43d535c2
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_HP01lef2_43d535c2
+mat_end
+mat_beg mat_material_217
+    diffuse 1 tex_HP01lef1_558bcd1a
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_HP01lef1_558bcd1a
+mat_end
+mat_beg mat_material_218
+    diffuse 1 tex_HP01pet3_a1f87d06
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_HP01pet3_a1f87d06
+mat_end
+mat_beg mat_material_219
+    diffuse 1 filter (0.0549107,0.151899,0.0523469) tex_FL03lef1_4c5e1b50
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL03lef1_4c5e1b50
+mat_end
+mat_beg mat_material_22
+    diffuse 1 tex_muros_d_019c52f2
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_muros_d_019c52f2
+mat_end
+mat_beg mat_material_220
+    diffuse 1 tex_FL04lef1_fd779258
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL04lef1_fd779258
+mat_end
+mat_beg mat_material_221
+    diffuse 1 tex_FL04lef2_2ccd4f65
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL04lef2_2ccd4f65
+mat_end
+mat_beg mat_material_222
+    diffuse 1 tex_FL04pet1_06833673
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL04pet1_06833673
+mat_end
+mat_beg mat_material_223
+    diffuse 1 tex_FL04cnt2_a42feb55
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL04cnt2_a42feb55
+mat_end
+mat_beg mat_material_224
+    diffuse 1 tex_FL04cnt1_f3f2dab4
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL04cnt1_f3f2dab4
+mat_end
+mat_beg mat_material_225
+    diffuse 1 tex_FL04stm_fb7da463
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL04stm_fb7da463
+mat_end
+mat_beg mat_material_226
+    diffuse 1 tex_TR02lef5_616cc396
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_TR02lef5_616cc396
+mat_end
+mat_beg mat_material_227
+    diffuse 1 tex_quercus_rubra_bark_8f3e6aa1
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_quercus_rubra_bark_8f3e6aa1
+mat_end
+mat_beg mat_material_228
+    diffuse 1 tex_FL19pe13_f96b5f75
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL19pe13_f96b5f75
+mat_end
+mat_beg mat_material_229
+    diffuse 1 tex_FL19pe16_fdf7c524
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL19pe16_fdf7c524
+mat_end
+mat_beg mat_material_23
+    diffuse 1 tex_muros_g_7574d5a3
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_muros_g_7574d5a3
+mat_end
+mat_beg mat_material_230
+    diffuse 1 tex_FL19pe14_3f239c81
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL19pe14_3f239c81
+mat_end
+mat_beg mat_material_231
+    diffuse 1 tex_FL19pe15_db2131cd
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL19pe15_db2131cd
+mat_end
+mat_beg mat_material_232
+    diffuse 1 tex_FL19lef4_68590eff
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL19lef4_68590eff
+mat_end
+mat_beg mat_material_233
+    diffuse 1 tex_FL19lef2_f209c9ef
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL19lef2_f209c9ef
+mat_end
+mat_beg mat_material_234
+    diffuse 1 tex_FL19lef3_38dc57d7
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL19lef3_38dc57d7
+mat_end
+mat_beg mat_material_235
+    diffuse 1 tex_FL19stm_06a48c8f
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL19stm_06a48c8f
+mat_end
+mat_beg mat_material_236
+    diffuse 1 tex_HP04lef2_731bc56f
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_HP04lef2_731bc56f
+mat_end
+mat_beg mat_material_237
+    diffuse 1 tex_zebrina_pendula_bark_8a5fb79b
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_zebrina_pendula_bark_8a5fb79b
+mat_end
+mat_beg mat_material_238
+    diffuse 1 tex_BL05lef2_52ed1fb6
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_BL05lef2_52ed1fb6
+mat_end
+mat_beg mat_material_239
+    diffuse 1 tex_hypoestes_phyllostachya_bark_2079133a
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_hypoestes_phyllostachya_bark_2079133a
+mat_end
+mat_beg mat_material_24
+    diffuse 1 tex_muros_h_5e78786c
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_muros_h_5e78786c
+mat_end
+mat_beg mat_material_240
+    diffuse 1 tex_FL29cnt1_a3dbe678
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL29cnt1_a3dbe678
+mat_end
+mat_beg mat_material_241
+    diffuse 1 tex_FL29cnt2_76f24840
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL29cnt2_76f24840
+mat_end
+mat_beg mat_material_242
+    diffuse 1 tex_FL29lef_87e92b83
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL29lef_87e92b83
+mat_end
+mat_beg mat_material_243
+    diffuse 1 tex_FL29twg_2ddfb9b4
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL29twg_2ddfb9b4
+mat_end
+mat_beg mat_material_244
+    diffuse 1 tex_FL29pet1_0c179bfc
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL29pet1_0c179bfc
+mat_end
+mat_beg mat_material_245
+    diffuse 1 tex_FL29pet2_9882aa06
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL29pet2_9882aa06
+mat_end
+mat_beg mat_material_246
+    diffuse 1 tex_FL29stm1_e330ce8d
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL29stm1_e330ce8d
+mat_end
+mat_beg mat_material_247
+    diffuse 1 tex_FL29twg_2ddfb9b4
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL29twg_2ddfb9b4
+mat_end
+mat_beg mat_material_248
+    diffuse 1 tex_FL29stm2_e48f692f
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL29stm2_e48f692f
+mat_end
+mat_beg mat_material_249
+    diffuse 1 tex_FL29lef_87e92b83
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL29lef_87e92b83
+mat_end
+mat_beg mat_material_25
+    diffuse 1 tex_muros_l_55f50e36
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_muros_l_55f50e36
+mat_end
+mat_beg mat_material_250
+    diffuse 1 tex_FL29pet2_9882aa06
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL29pet2_9882aa06
+mat_end
+mat_beg mat_material_251
+    diffuse 1 tex_FL17lef1_b2c5d10b
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL17lef1_b2c5d10b
+mat_end
+mat_beg mat_material_252
+    diffuse 1 tex_FL17lef2_4865c6ea
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL17lef2_4865c6ea
+mat_end
+mat_beg mat_material_253
+    diffuse 1 tex_FL17pet5_f0b3e7d1
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL17pet5_f0b3e7d1
+mat_end
+mat_beg mat_material_254
+    diffuse 1 tex_FL17stm_d0562f62
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL17stm_d0562f62
+mat_end
+mat_beg mat_material_255
+    diffuse 1 tex_FL17lef6_dc67d142
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL17lef6_dc67d142
+mat_end
+mat_beg mat_material_256
+    diffuse 1 tex_FL17cnt_08760760
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL17cnt_08760760
+mat_end
+mat_beg mat_material_257
+    diffuse 1 tex_FL17lef3_991f741b
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL17lef3_991f741b
+mat_end
+mat_beg mat_material_258
+    diffuse 1 tex_FL17pet1_e9065025
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL17pet1_e9065025
+mat_end
+mat_beg mat_material_259
+    diffuse 1 tex_FL17stm_d0562f62
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL17stm_d0562f62
+mat_end
+mat_beg mat_material_26
+    diffuse 1 tex_muros_j_5a301356
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_muros_j_5a301356
+mat_end
+mat_beg mat_material_260
+    diffuse 1 tex_FL17cnt_08760760
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL17cnt_08760760
+mat_end
+mat_beg mat_material_261
+    diffuse 1 tex_FL17lef5_6181c402
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL17lef5_6181c402
+mat_end
+mat_beg mat_material_262
+    diffuse 1 tex_FL17lef2_4865c6ea
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL17lef2_4865c6ea
+mat_end
+mat_beg mat_material_263
+    diffuse 1 tex_FL17pet2_19b3e14f
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL17pet2_19b3e14f
+mat_end
+mat_beg mat_material_264
+    diffuse 1 tex_FL03lef1_4c5e1b50
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL03lef1_4c5e1b50
+mat_end
+mat_beg mat_material_265
+    diffuse 1 tex_fittonia_verschaffeltii_bark_5f51e2b4
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_fittonia_verschaffeltii_bark_5f51e2b4
+mat_end
+mat_beg mat_material_266
+    diffuse 1 tex_EU15lef_fb913c3e
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_EU15lef_fb913c3e
+mat_end
+mat_beg mat_material_267
+    diffuse 1 tex_FL24stm_06f0b0d7
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_FL24stm_06f0b0d7
+mat_end
+mat_beg mat_material_269
+    diffuse 1 tex_silla_d_piel_d204b64b
+    phong 1 (0.00313724,0.00313724,0.00313724) (1,1,1,8.0)
+    normal tex_N_silla_d_piel_bump_5618ef76
+    alpha filter (0,0,0,1) tex_silla_d_piel_d204b64b
+mat_end
+mat_beg mat_material_27
+    diffuse 1 tex_muros_l_55f50e36
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_muros_l_55f50e36
+mat_end
+mat_beg mat_material_270
+    diffuse 1 tex_WOOD08_548d085a
+    phong 1 (0.048,0.048,0.048) (1,1,1,8.0)
+    normal tex_N_WOOD08_Bump_ae0c8dac
+    alpha filter (0,0,0,1) tex_WOOD08_548d085a
+mat_end
+mat_beg mat_material_271
+    diffuse 1 tex_WOOD08_548d085a
+    phong 1 (0.0474684,0.0474684,0.0474684) (1,1,1,8.0)
+    normal tex_N_WOOD08_Bump_ae0c8dac
+    alpha filter (0,0,0,1) tex_WOOD08_548d085a
+mat_end
+mat_beg mat_material_272
+    diffuse 1 tex_tapa_talabera_cbae7c02
+    alpha filter (0,0,0,1) tex_tapa_talabera_cbae7c02
+mat_end
+mat_beg mat_material_273
+    diffuse 1 tex_WOOD08_548d085a
+    phong 1 (0.0481013,0.0481013,0.0481013) (1,1,1,8.0)
+    normal tex_N_WOOD08_Bump_ae0c8dac
+    alpha filter (0,0,0,1) tex_WOOD08_548d085a
+mat_end
+mat_beg mat_material_274
+    diffuse 1 tex_tela_mesa_d_2ebf5b4f
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_tela_mesa_d_2ebf5b4f
+mat_end
+mat_beg mat_material_275
+    diffuse 1 tex_tela_mesa_b_29aca077
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_tela_mesa_b_29aca077
+mat_end
+mat_beg mat_material_276
+    diffuse 1 tex_WOOD08_548d085a
+    phong 1 (0.0486274,0.0486274,0.0486274) (1,1,1,8.0)
+    normal tex_N_WOOD08_Bump_ae0c8dac
+    alpha filter (0,0,0,1) tex_WOOD08_548d085a
+mat_end
+mat_beg mat_material_277
+    diffuse 1 tex_Finishes.Flooring.Carpet.Loop.5_acdb1142
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_Finishes.Flooring.Carpet.Loop.5_12c55fcf
+    alpha filter (0,0,0,1) tex_Finishes.Flooring.Carpet.Loop.5_acdb1142
+mat_end
+mat_beg mat_material_278
+    diffuse 1 tex_BWK_1024_17cdad43
+    phong 1 filter (0.04,0.04,0.04) tex_bwk_1024_Spec2_5d0af0ea (1,1,1,8.0)
+    normal tex_N_bwk_1024_Bump_7f2629f0
+    alpha filter (0,0,0,1) tex_BWK_1024_17cdad43
+mat_end
+mat_beg mat_material_279
+    diffuse 1 tex_tela_blanca_0eab1549
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_tela_blanca_66f5c4f5
+    alpha filter (0,0,0,1) tex_tela_blanca_0eab1549
+mat_end
+mat_beg mat_material_28
+    diffuse 1 tex_muros_m_9cd20419
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_muros_m_9cd20419
+mat_end
+mat_beg mat_material_280
+    diffuse 1 tex_Fierro_A_5effd2ff
+    phong 1 (0.08,0.08,0.08) (1,1,1,8.0)
+    normal tex_N_Fierro_A_Bump_ea4c2355
+    alpha filter (0,0,0,1) tex_Fierro_A_5effd2ff
+mat_end
+mat_beg mat_material_281
+    diffuse 1 tex_wood.3.Bubinga_c4cf0caa
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_wood.3.Bubinga_c4cf0caa
+mat_end
+mat_beg mat_material_282
+    diffuse 1 tex_tela_silla_b_4791341e
+    alpha filter (0,0,0,1) tex_tela_silla_b_4791341e
+mat_end
+mat_beg mat_material_285
+    diffuse 1 tex_BWK_1024_17cdad43
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_BWK_1024_17cdad43
+mat_end
+mat_beg mat_material_286
+    diffuse 1 tex_tela_silla_b_4791341e
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_tela_silla_b_4791341e
+mat_end
+mat_beg mat_material_287
+    diffuse 1 tex_plato_a_775c68d6
+    phong 1 (0.196078,0.196078,0.196078) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_plato_a_775c68d6
+mat_end
+mat_beg mat_material_29
+    diffuse 1 tex_muros_n_96604704
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_muros_n_96604704
+mat_end
+mat_beg mat_material_3
+    diffuse 1 tex_moldura_volado_a96d470b
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_moldura_volado_a96d470b
+mat_end
+mat_beg mat_material_30
+    diffuse 1 tex_muros_b_af72c329
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_muros_b_af72c329
+mat_end
+mat_beg mat_material_31
+    diffuse 1 tex_muros_p__04182f2a
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_muros_p__04182f2a
+mat_end
+mat_beg mat_material_32
+    diffuse 1 tex_muros_q3_c6ee8a10
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_muros_q3_c6ee8a10
+mat_end
+mat_beg mat_material_33
+    diffuse 1 tex_muros_q_e4aed798
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_muros_q_e4aed798
+mat_end
+mat_beg mat_material_34
+    diffuse 1 tex_muros_q4_dbcb989e
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_muros_q4_dbcb989e
+mat_end
+mat_beg mat_material_35
+    diffuse 1 tex_techo_4b86645a
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_techo_4b86645a
+mat_end
+mat_beg mat_material_36
+    diffuse 1 tex_052terresable_b14ecea2
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_052terresable_b14ecea2
+mat_end
+mat_beg mat_material_37
+    diffuse 1 tex_muros_q_patio2_4f5c0b8b
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_muros_q_patio2_4f5c0b8b
+mat_end
+mat_beg mat_material_39
+    diffuse 1 tex_arcos_lisos_2_color_452ce565
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_arcos_lisos_2_bump_ed452480
+    alpha filter (0,0,0,1) tex_arcos_lisos_2_color_452ce565
+mat_end
+mat_beg mat_material_4
+    diffuse 1 tex_moldura_techo_41ac6b63
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_moldura_techo_bump_235e1724
+    alpha filter (0,0,0,1) tex_moldura_techo_41ac6b63
+mat_end
+mat_beg mat_material_40
+    diffuse 1 tex_arcos_lisos_3_color_1_5633a4eb
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_arcos_lisos_3_bump_1_aa3283d9
+    alpha filter (0,0,0,1) tex_arcos_lisos_3_color_1_5633a4eb
+mat_end
+mat_beg mat_material_41
+    diffuse 1 tex_muros_b2_4931c6b9
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_muros_b2_4931c6b9
+mat_end
+mat_beg mat_material_42
+    diffuse 1 tex_madera_rustica_2_a98007bc
+    phong 1 (0.00172548,0.00172548,0.00172548) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_madera_rustica_2_a98007bc
+mat_end
+mat_beg mat_material_43
+    diffuse 1 tex_madera_rustica_2_a98007bc
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_madera_rustica_2_a98007bc
+mat_end
+mat_beg mat_material_44
+    diffuse 1 tex_muros_k_369d99fb
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_muros_k_369d99fb
+mat_end
+mat_beg mat_material_45
+    diffuse 1 tex_concreto_01_9775ed4b
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_concreto_01_9775ed4b
+mat_end
+mat_beg mat_material_46
+    diffuse 1 tex_Vigas_A2_36f06106
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_vigas_a2_bump_01fa23cc
+    alpha filter (0,0,0,1) tex_Vigas_A2_36f06106
+mat_end
+mat_beg mat_material_47
+    diffuse 1 tex_techo_01_70a7fbad
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_techo_01_70a7fbad
+mat_end
+mat_beg mat_material_48
+    diffuse 1 tex_piso_patio_exterior_a8d0bdf3
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_piso_patio_exterior_displace_inv_26f787b0
+    alpha filter (0,0,0,1) tex_piso_patio_exterior_a8d0bdf3
+mat_end
+mat_beg mat_material_49
+    diffuse 1 tex_fuente_piedra_01_34296566
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_fuente_piedra_01_34296566
+mat_end
+mat_beg mat_material_5
+    diffuse 1 tex_escalera_color_4541ebd0
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_escalera_bump_1f30f04e
+    alpha filter (0,0,0,1) tex_escalera_color_4541ebd0
+mat_end
+mat_beg mat_material_51
+    diffuse 1 tex_arco_frente_5825005a
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_arco_frente_displace_inv_3b47026b
+    alpha filter (0,0,0,1) tex_arco_frente_5825005a
+mat_end
+mat_beg mat_material_52
+    diffuse 1 (0.337255,0.286275,0.223529)
+    phong 1 (0.0200784,0.0177255,0.014902) (1,1,1,8.0)
+    alpha (0,0,0,1)
+mat_end
+mat_beg mat_material_53
+    diffuse 1 tex_D30_Smiguel_2003_7785_1da3f872
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_D30_Smiguel_2003_7785_1da3f872
+mat_end
+mat_beg mat_material_54
+    diffuse 1 tex_0001_carros_7217b4e0
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_0001_carros_7217b4e0
+mat_end
+mat_beg mat_material_55
+    diffuse 1 tex_D30_Smiguel_2003_7815_9f923109
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_D30_Smiguel_2003_7815_9f923109
+mat_end
+mat_beg mat_material_56
+    diffuse 1 tex_D30_Smiguel_2003_7812_b165d7d6
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_D30_Smiguel_2003_7812_b165d7d6
+mat_end
+mat_beg mat_material_57
+    diffuse 1 tex_027_Cola_Caballo_06-30-1997_9915569c
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_027_Cola_Caballo_06-30-1997_9915569c
+mat_end
+mat_beg mat_material_58
+    diffuse 1 tex_D30_Smiguel_2003_7812_b165d7d6
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_D30_Smiguel_2003_7812_b165d7d6
+mat_end
+mat_beg mat_material_59
+    diffuse 1 tex_D30_Smiguel_2003_7843_59132cfa
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_D30_Smiguel_2003_7843_59132cfa
+mat_end
+mat_beg mat_material_6
+    diffuse 1 tex_pared_barro_afinado_f41149fd
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_pared_barro_afinado_f41149fd
+mat_end
+mat_beg mat_material_60
+    diffuse 1 tex_D30_Smiguel_2003_7785_1da3f872
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_D30_Smiguel_2003_7785_1da3f872
+mat_end
+mat_beg mat_material_61
+    diffuse 1 tex_D30_Smiguel_2003_7758_2062497c
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_D30_Smiguel_2003_7758_2062497c
+mat_end
+mat_beg mat_material_62
+    diffuse 1 tex_D30_Smiguel_2003_7843_59132cfa
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_D30_Smiguel_2003_7843_59132cfa
+mat_end
+mat_beg mat_material_63
+    diffuse 1 tex_D30_Smiguel_2003_7833_61a5c387
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_D30_Smiguel_2003_7833_61a5c387
+mat_end
+mat_beg mat_material_64
+    diffuse 1 tex_D30_Smiguel_2003_7768_317afd4a
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_D30_Smiguel_2003_7768_317afd4a
+mat_end
+mat_beg mat_material_65
+    diffuse 1 tex_D30_Smiguel_2003_7833_61a5c387
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_D30_Smiguel_2003_7833_61a5c387
+mat_end
+mat_beg mat_material_66
+    diffuse 1 tex_D30_Smiguel_2003_7833_61a5c387
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_D30_Smiguel_2003_7833_61a5c387
+mat_end
+mat_beg mat_material_67
+    diffuse 1 tex_D30_Smiguel_2003_7833_61a5c387
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_D30_Smiguel_2003_7833_61a5c387
+mat_end
+mat_beg mat_material_68
+    diffuse 1 tex_madera_marcos_018072cc
+    phong 1 (0.00627452,0.00627452,0.00627452) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_madera_marcos_018072cc
+mat_end
+mat_beg mat_material_69
+    diffuse 1 tex_postes_barandal_color_9e7ad551
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_postes_barandal_bump_a8ae193f
+    alpha filter (0,0,0,1) tex_postes_barandal_color_9e7ad551
+mat_end
+mat_beg mat_material_7
+    diffuse 1 tex_techo_4b86645a
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_techo_4b86645a
+mat_end
+mat_beg mat_material_70
+    diffuse 1 tex_piso_patio_exterior2_e4f8c6fa
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_piso_patio_exterior2_e4f8c6fa
+mat_end
+mat_beg mat_material_72
+    diffuse 1 tex_rust_a1_3a5616b4
+    alpha filter (0,0,0,1) tex_rust_a1_3a5616b4
+mat_end
+mat_beg mat_material_73
+    diffuse 1 tex_rust_detalle_a4255c59
+    normal tex_N_rust_detalle_bump_bd16f1d3
+    alpha filter (0,0,0,1) tex_rust_detalle_a4255c59
+mat_end
+mat_beg mat_material_74
+    diffuse 1 tex_madera_barandal_esc_2_276a39c7
+    alpha filter (0,0,0,1) tex_madera_barandal_esc_2_276a39c7
+mat_end
+mat_beg mat_material_75
+    diffuse 1 tex_pared_calle_222e4f87
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_pared_calle_222e4f87
+mat_end
+mat_beg mat_material_76
+    diffuse 1 tex_fierro_b_1e1c0c87
+    phong 1 (0.012549,0.012549,0.012549) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_fierro_b_1e1c0c87
+mat_end
+mat_beg mat_material_77
+    diffuse 1 tex_fierro_b_1e1c0c87
+    alpha filter (0,0,0,1) tex_fierro_b_1e1c0c87
+mat_end
+mat_beg mat_material_78
+    diffuse 1 (0.80874,0.585009,0.479873)
+    phong 1 (0.0323496,0.0234004,0.0191949) (1,1,1,8.0)
+    alpha (0,0,0,1)
+mat_end
+mat_beg mat_material_79
+    diffuse 1 (0.2,0.2,0.2)
+    phong 1 (0.3,0.3,0.3) (1,1,1,8.0)
+#    transmissive 1 (0.1,0.1,0.1) 1
+    alpha (0,0,0,1)
+mat_end
+mat_beg mat_material_8
+    diffuse 1 tex_concreto_02_0ad3f66c
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_concreto_02_0ad3f66c
+mat_end
+mat_beg mat_material_80
+    diffuse 1 tex_candil_madera_432521c7
+    phong 1 (0.00658824,0.00658824,0.00658824) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_candil_madera_432521c7
+mat_end
+mat_beg mat_material_81
+    diffuse 1 tex_metal_viejo_2_b53447a0
+    phong 1 (0.0120784,0.0120784,0.0120784) (1,1,1,8.0)
+    normal tex_N_metal_viejo_2_ec13ae62
+    alpha filter (0,0,0,1) tex_metal_viejo_2_b53447a0
+mat_end
+mat_beg mat_material_84
+    diffuse 1 tex_detmoldura_06_color_5f5354b9
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_detmoldura_06_bump_d771f420
+    alpha filter (0,0,0,1) tex_detmoldura_06_color_5f5354b9
+mat_end
+mat_beg mat_material_85
+    diffuse 1 tex_detmoldura_05_color_24579b3c
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_detmoldura_05_bump_707c7415
+    alpha filter (0,0,0,1) tex_detmoldura_05_color_24579b3c
+mat_end
+mat_beg mat_material_86
+    diffuse 1 tex_detmoldura_04_color_8355170f
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_detmoldura_04_bump_3acfcf04
+    alpha filter (0,0,0,1) tex_detmoldura_04_color_8355170f
+mat_end
+mat_beg mat_material_87
+    diffuse 1 tex_detmoldura_03_color_28cf0b74
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_detmoldura_03_bump_59a22578
+    alpha filter (0,0,0,1) tex_detmoldura_03_color_28cf0b74
+mat_end
+mat_beg mat_material_88
+    diffuse 1 tex_detmoldura_02_color_79249212
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_detmoldura_02_bump_e179e8bd
+    alpha filter (0,0,0,1) tex_detmoldura_02_color_79249212
+mat_end
+mat_beg mat_material_89
+    diffuse 1 tex_detmoldura_01_color_b365258f
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_detmoldura_01_bump_1f2e43e6
+    alpha filter (0,0,0,1) tex_detmoldura_01_color_b365258f
+mat_end
+mat_beg mat_material_9
+    diffuse 1 tex_moldura_volado_a96d470b
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_moldura_volado_a96d470b
+mat_end
+mat_beg mat_material_90
+    diffuse 1 tex_escurridera_color_cc4c35cc
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_escurridera_bump_24041403
+    alpha filter (0,0,0,1) tex_escurridera_color_cc4c35cc
+mat_end
+mat_beg mat_material_91
+    diffuse 1 tex_rust_a1_3a5616b4
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_rust_a1_3a5616b4
+mat_end
+mat_beg mat_material_92
+    diffuse 1 tex_sm_leaf_seca_03b_32332cd0
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_sm_leaf_seca_03b_32332cd0
+mat_end
+mat_beg mat_material_93
+    diffuse 1 tex_sm_leaf_seca_02b_db45de60
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_sm_leaf_seca_02b_db45de60
+mat_end
+mat_beg mat_material_94
+    diffuse 1 tex_sm_hoja_c_seca_e5808ae0
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_sm_hoja_c_seca_e5808ae0
+mat_end
+mat_beg mat_material_95
+    diffuse 1 tex_marco_puerta_1_71ca5d99
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_marco_puerta_1_bump_ed30f886
+    alpha filter (0,0,0,1) tex_marco_puerta_1_71ca5d99
+mat_end
+mat_beg mat_material_96
+    diffuse 1 tex_madera_barandal_esc_2_276a39c7
+    normal tex_N_madera_barandal_esc_2_bump_0b806f01
+    alpha filter (0,0,0,1) tex_madera_barandal_esc_2_276a39c7
+mat_end
+mat_beg mat_material_97
+    diffuse 1 tex_mold_arco_01_color_bbd06966
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_mold_arco_01_bump_215cff85
+    alpha filter (0,0,0,1) tex_mold_arco_01_color_bbd06966
+mat_end
+mat_beg mat_material_98
+    diffuse 1 tex_molduraterraza__color_0bbbdad5
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_molduraterraza_bump_ac65d10a
+    alpha filter (0,0,0,1) tex_molduraterraza__color_0bbbdad5
+mat_end
+mat_beg mat_materiald
+    diffuse 1 tex_puerta_32174d0e
+    phong 1 (0.00172548,0.00172548,0.00172548) (1,1,1,8.0)
+    normal tex_N_puerta_bump_b7725b8a
+    alpha filter (0,0,0,1) tex_puerta_32174d0e
+mat_end
+mat_beg mat_materiale
+    diffuse 1 tex_Barro_2_ba1777c6
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_Barro_2_ba1777c6
+mat_end
+mat_beg mat_materiali
+    diffuse 1 tex_columna_b_color_dfc968b8
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_columna_b_displacement_3_inv_da24f998
+    alpha filter (0,0,0,1) tex_columna_b_color_dfc968b8
+mat_end
+mat_beg mat_materialn
+    diffuse 1 (0.710501,0.513535,0.303995)
+    phong 1 (0.2,0.2,0.2) (1,1,1,8.0)
+#    transmissive 1 (0.3,0.3,0.3) 1
+    alpha (0,0,0,1)
+mat_end
+mat_beg mat_materialo
+    diffuse 1 (0.1,0.1,0.1)
+    phong 1 (0.25,0.25,0.25) (1,1,1,8.0)
+#    transmissive 1 (0.5,0.4,0.2) 1
+    normal tex_water_bump_07557b20
+    alpha (0,0,0,1)
+mat_end
+mat_beg mat_materialp
+    diffuse 1 tex_fuente_piedra_02_813f7ab2
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha filter (0,0,0,1) tex_fuente_piedra_02_813f7ab2
+mat_end
+mat_beg mat_materialq
+    diffuse 1 tex_fuente_azulejo_cd1ac748
+    alpha filter (0,0,0,1) tex_fuente_azulejo_cd1ac748
+mat_end
+mat_beg mat_materialr
+    diffuse 1 (0.75,0.75,0.75)
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    alpha (0,0,0,1)
+mat_end
+mat_beg mat_materials
+    diffuse 1 tex_sm_tronco_e5878150
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_sm_tronco_bump_bc2704e2
+    alpha filter (0,0,0,1) tex_sm_tronco_e5878150
+mat_end
+mat_beg mat_materialt
+    diffuse 1 tex_sm_leaf_02a_81d2e01f
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_sm_leaf_02_bump_1f88f364
+    alpha filter (0,0,0,1) tex_sm_leaf_02a_81d2e01f
+mat_end
+mat_beg mat_materialu
+    diffuse 1 tex_sm_leaf_02b_0ae0a727
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_sm_leaf_02_bump_1f88f364
+    alpha filter (0,0,0,1) tex_sm_leaf_02b_0ae0a727
+mat_end
+mat_beg mat_materialv
+    diffuse 1 tex_sm_leaf_03a_6dfae5ce
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_sm_leaf_02_bump_1f88f364
+    alpha filter (0,0,0,1) tex_sm_leaf_03a_6dfae5ce
+mat_end
+mat_beg mat_materialw
+    diffuse 1 tex_bark06mi_4ece522d
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_bark06mi_68107090
+    alpha filter (0,0,0,1) tex_bark06mi_4ece522d
+mat_end
+mat_beg mat_materialx
+    diffuse 1 tex_l33-upper_543f5884
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_l33-upper_28e3e476
+    alpha filter (0,0,0,1) tex_l33-upper_543f5884
+mat_end
+mat_beg mat_materialy
+    diffuse 1 tex_l37-upper_7f89bda8
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_l37-upper_041cca6d
+    alpha filter (0,0,0,1) tex_l37-upper_7f89bda8
+mat_end
+mat_beg mat_materialz
+    diffuse 1 tex_l04-upper_8803ef61
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_l04-upper_e16c7ca5
+    alpha filter (0,0,0,1) tex_l04-upper_8803ef61
+mat_end
+mat_beg mat_material_123
+    diffuse 1 tex_Forja_Macetas_9b7b4de7
+    phong 1 (0.00658824,0.00658824,0.00658824) (1,1,1,8.0)
+    normal tex_N_Forja_Macetas_bump_1354e757
+    alpha filter (0,0,0,1) tex_Forja_Macetas_9b7b4de7
+mat_end
+mat_beg mat_material_124
+    diffuse 1 tex_Maceta_A_Color_8ccdcaaf
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_Maceta_A_Bump_fc1438ee
+    alpha filter (0,0,0,1) tex_Maceta_A_Color_8ccdcaaf
+mat_end
+mat_beg mat_material_125
+    diffuse 1 tex_Maceta_A2_Color_26167dd5
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_Maceta_A_Bump_fc1438ee
+    alpha filter (0,0,0,1) tex_Maceta_A2_Color_26167dd5
+mat_end
+mat_beg mat_material_126
+    diffuse 1 tex_Maceta_B_Color_6c2246db
+    phong 1 (0.04,0.04,0.04) (1,1,1,8.0)
+    normal tex_N_Maceta_B_Bump_28ee9d62
+    alpha filter (0,0,0,1) tex_Maceta_B_Color_6c2246db
+mat_end
+! scenes/san-miguel/san-miguel-vert-1.rt
+! scenes/san-miguel/san-miguel-vert-2.rt
+! scenes/san-miguel/san-miguel-vert-3.rt
+! scenes/san-miguel/san-miguel-vert-4.rt
+! scenes/san-miguel/san-miguel-face-1.rt
+! scenes/san-miguel/san-miguel-face-2.rt

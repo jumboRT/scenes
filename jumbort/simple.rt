@@ -1,0 +1,37 @@
+C -1,0,0.25 1,0,0 90
+A 1.0 (0.7, 0.9, 1.0)
+
+mat_beg mat_light
+        emission 16 (1.0,1.0,1.0)
+mat_end
+
+
+mat_beg mat_right
+	diffuse 1.0 (1.0,1.0,0.0)
+mat_end
+
+# sp -1000,0,1000 1000 mat_light
+
+mat_beg mat_middle
+	refractive_index 1.5
+	transmissive 1.0 (1.0, 1.0, 1.0) (1.0,1.0,1.0)
+	specular 1.0 (1.0, 1.0, 1.0)
+mat_end
+
+mat_beg mat_glass
+	refractive_index 1.5
+	transmissive 1.0 (1.0, 1.0, 1.0) (1.0,1.0,1.0)
+	specular 1.0 (1.0, 1.0, 1.0)
+mat_end
+
+mat_beg mat_air
+	refractive_index 1.5
+	transmissive 1.0 (1.0, 1.0, 1.0) (1.0,1.0,1.0)
+	specular 1.0 (1.0, 1.0, 1.0)
+mat_end
+
+sp 1,0,0.25 1 mat_middle
+sp 1,1,0.25 1 mat_right
+sp 1,-1,0.25 1 mat_glass
+sp 1,-1,0.25 -0.8 mat_glass
+sp 1,0,-50.25 100 255,255,0

@@ -1,0 +1,441 @@
+C 64,0,96 1,-0.6,-0.4 50
+mat_beg mat_fog
+	emission 1 121,166,255
+	$ fog.0005 volume 0.0005
+	$ fog.0005 diffuse 1 (1,1,1)
+	$ fog.0010 volume 0.0010
+	$ fog.0010 diffuse 1 (1,1,1)
+mat_end
+A mat_fog
+ambient_dist 2500
+mat_beg mat_sun
+	emission 1000 255,255,255
+mat_end
+sp -500,-500,1000 200 mat_sun
+tex_def tex_lava_flow_dc555b62 scenes/pack/tex/minecraft/block/lava_flow.bmp
+tex_def tex_grass_b808b477 scenes/pack/tex/minecraft/block/grass.bmp
+tex_def tex_lily_pad_d50f5afe scenes/pack/tex/minecraft/block/lily_pad.bmp
+tex_def tex_granite_dd2e58c7 scenes/pack/tex/minecraft/block/granite.bmp
+tex_def tex_sunflower_front_fa98dde7 scenes/pack/tex/minecraft/block/sunflower_front.bmp
+tex_def tex_oak_leaves_7c2d27dd scenes/pack/tex/minecraft/block/oak_leaves.bmp
+tex_def tex_water_still_3eface31 scenes/pack/tex/minecraft/block/water_still.bmp
+tex_def tex_water_flow_e7f0fff9 scenes/pack/tex/minecraft/block/water_flow.bmp
+tex_def tex_mushroom_stem_10a1848e scenes/pack/tex/minecraft/block/mushroom_stem.bmp
+tex_def tex_blue_orchid_c7aabeda scenes/pack/tex/minecraft/block/blue_orchid.bmp
+tex_def tex_birch_leaves_79b16346 scenes/pack/tex/minecraft/block/birch_leaves.bmp
+tex_def tex_pumpkin_side_2643efa3 scenes/pack/tex/minecraft/block/pumpkin_side.bmp
+tex_def tex_tall_grass_bottom_68767e52 scenes/pack/tex/minecraft/block/tall_grass_bottom.bmp
+tex_def tex_iron_ore_f87d7fa4 scenes/pack/tex/minecraft/block/iron_ore.bmp
+tex_def tex_lilac_top_e2e05778 scenes/pack/tex/minecraft/block/lilac_top.bmp
+tex_def tex_spawner_f8511294 scenes/pack/tex/minecraft/block/spawner.bmp
+tex_def tex_oak_log_9aab4cda scenes/pack/tex/minecraft/block/oak_log.bmp
+tex_def tex_peony_bottom_cc22caf2 scenes/pack/tex/minecraft/block/peony_bottom.bmp
+tex_def tex_bedrock_5dce1d70 scenes/pack/tex/minecraft/block/bedrock.bmp
+tex_def tex_sugar_cane_dba9c05f scenes/pack/tex/minecraft/block/sugar_cane.bmp
+tex_def tex_azure_bluet_68520cbe scenes/pack/tex/minecraft/block/azure_bluet.bmp
+tex_def tex_brown_mushroom_4932d14a scenes/pack/tex/minecraft/block/brown_mushroom.bmp
+tex_def tex_andesite_cde24575 scenes/pack/tex/minecraft/block/andesite.bmp
+tex_def tex_snow_90bcdf77 scenes/pack/tex/minecraft/block/snow.bmp
+tex_def tex_torch_1dff8fc7 scenes/pack/tex/minecraft/block/torch.bmp
+tex_def tex_gravel_23a75339 scenes/pack/tex/minecraft/block/gravel.bmp
+tex_def tex_clay_506fe31e scenes/pack/tex/minecraft/block/clay.bmp
+tex_def tex_bee_nest_front_8b05d728 scenes/pack/tex/minecraft/block/bee_nest_front.bmp
+tex_def tex_obsidian_4e8b57b7 scenes/pack/tex/minecraft/block/obsidian.bmp
+tex_def tex_peony_top_35b7b232 scenes/pack/tex/minecraft/block/peony_top.bmp
+tex_def tex_grass_block_side_15f8393d scenes/pack/tex/minecraft/block/grass_block_side.bmp
+tex_def tex_mossy_cobblestone_8801a346 scenes/pack/tex/minecraft/block/mossy_cobblestone.bmp
+tex_def tex_dandelion_450e861a scenes/pack/tex/minecraft/block/dandelion.bmp
+tex_def tex_bee_nest_bottom_af0b106f scenes/pack/tex/minecraft/block/bee_nest_bottom.bmp
+tex_def tex_rail_cda48582 scenes/pack/tex/minecraft/block/rail.bmp
+tex_def tex_bee_nest_side_4ccd57ce scenes/pack/tex/minecraft/block/bee_nest_side.bmp
+tex_def tex_dark_oak_log_top_7b8002cc scenes/pack/tex/minecraft/block/dark_oak_log_top.bmp
+tex_def tex_lapis_ore_45560110 scenes/pack/tex/minecraft/block/lapis_ore.bmp
+tex_def tex_lava_still_a9a4405e scenes/pack/tex/minecraft/block/lava_still.bmp
+tex_def tex_cobblestone_abc90e3f scenes/pack/tex/minecraft/block/cobblestone.bmp
+tex_def tex_oak_log_top_8eb9ef52 scenes/pack/tex/minecraft/block/oak_log_top.bmp
+tex_def tex_sand_af8842a0 scenes/pack/tex/minecraft/block/sand.bmp
+tex_def tex_cobweb_4ec5f130 scenes/pack/tex/minecraft/block/cobweb.bmp
+tex_def tex_dirt_16e56c4c scenes/pack/tex/minecraft/block/dirt.bmp
+tex_def tex_sunflower_top_6622a126 scenes/pack/tex/minecraft/block/sunflower_top.bmp
+tex_def tex_birch_log_top_32c11f62 scenes/pack/tex/minecraft/block/birch_log_top.bmp
+tex_def tex_dark_oak_leaves_34a31bc2 scenes/pack/tex/minecraft/block/dark_oak_leaves.bmp
+tex_def tex_spruce_log_bc8feb9a scenes/pack/tex/minecraft/block/spruce_log.bmp
+tex_def tex_birch_log_e9c4b8a5 scenes/pack/tex/minecraft/block/birch_log.bmp
+tex_def tex_redstone_ore_cba27b1e scenes/pack/tex/minecraft/block/redstone_ore.bmp
+tex_def tex_cornflower_8529230e scenes/pack/tex/minecraft/block/cornflower.bmp
+tex_def tex_sunflower_back_1b3b4e23 scenes/pack/tex/minecraft/block/sunflower_back.bmp
+tex_def tex_spruce_leaves_43205b2a scenes/pack/tex/minecraft/block/spruce_leaves.bmp
+tex_def tex_grass_block_top_1119e58d scenes/pack/tex/minecraft/block/grass_block_top.bmp
+tex_def tex_bone_block_top_29e38b0e scenes/pack/tex/minecraft/block/bone_block_top.bmp
+tex_def tex_red_mushroom_block_fc29c5b3 scenes/pack/tex/minecraft/block/red_mushroom_block.bmp
+tex_def tex_oak_planks_8cf14aab scenes/pack/tex/minecraft/block/oak_planks.bmp
+tex_def tex_lily_of_the_valley_b66c9298 scenes/pack/tex/minecraft/block/lily_of_the_valley.bmp
+tex_def tex_lilac_bottom_f1217196 scenes/pack/tex/minecraft/block/lilac_bottom.bmp
+tex_def tex_seagrass_4cb0c745 scenes/pack/tex/minecraft/block/seagrass.bmp
+tex_def tex_tall_seagrass_top_9a432c60 scenes/pack/tex/minecraft/block/tall_seagrass_top.bmp
+tex_def tex_coal_ore_f75bb9a8 scenes/pack/tex/minecraft/block/coal_ore.bmp
+tex_def tex_bone_block_side_793b4d37 scenes/pack/tex/minecraft/block/bone_block_side.bmp
+tex_def tex_stone_5e195ee8 scenes/pack/tex/minecraft/block/stone.bmp
+tex_def tex_tall_grass_top_72abdb70 scenes/pack/tex/minecraft/block/tall_grass_top.bmp
+tex_def tex_grass_block_snow_924aaa1d scenes/pack/tex/minecraft/block/grass_block_snow.bmp
+tex_def tex_rose_bush_top_af9d191f scenes/pack/tex/minecraft/block/rose_bush_top.bmp
+tex_def tex_emerald_ore_4ff4f976 scenes/pack/tex/minecraft/block/emerald_ore.bmp
+tex_def tex_mushroom_block_inside_7c01df23 scenes/pack/tex/minecraft/block/mushroom_block_inside.bmp
+tex_def tex_diamond_ore_caa73e90 scenes/pack/tex/minecraft/block/diamond_ore.bmp
+tex_def tex_dark_oak_log_4a6c9e60 scenes/pack/tex/minecraft/block/dark_oak_log.bmp
+tex_def tex_tall_seagrass_bottom_7f6bb071 scenes/pack/tex/minecraft/block/tall_seagrass_bottom.bmp
+tex_def tex_rose_bush_bottom_8fa9d464 scenes/pack/tex/minecraft/block/rose_bush_bottom.bmp
+tex_def tex_normal_37c1dd89 scenes/pack/tex/minecraft/entity/chest/normal.bmp
+tex_def tex_red_mushroom_66b883f0 scenes/pack/tex/minecraft/block/red_mushroom.bmp
+tex_def tex_oxeye_daisy_0dd5c866 scenes/pack/tex/minecraft/block/oxeye_daisy.bmp
+tex_def tex_poppy_62ce659e scenes/pack/tex/minecraft/block/poppy.bmp
+tex_def tex_vine_dc5c48e1 scenes/pack/tex/minecraft/block/vine.bmp
+tex_def tex_sunflower_bottom_7529ff88 scenes/pack/tex/minecraft/block/sunflower_bottom.bmp
+tex_def tex_pumpkin_top_cbf6ba5f scenes/pack/tex/minecraft/block/pumpkin_top.bmp
+tex_def tex_diorite_0c313e6a scenes/pack/tex/minecraft/block/diorite.bmp
+tex_def tex_spruce_log_top_133bf0bf scenes/pack/tex/minecraft/block/spruce_log_top.bmp
+tex_def tex_gold_ore_53c208ff scenes/pack/tex/minecraft/block/gold_ore.bmp
+mat_beg mat_minecraft_block-lava_flow
+    diffuse 1 filter (0.8129,0.3601,0.0808) tex_lava_flow_dc555b62
+    alpha tex_lava_flow_dc555b62
+mat_end
+mat_beg mat_minecraft_block-grass
+    diffuse 1 filter (0.1571,0.3982,0.0528) tex_grass_b808b477
+    alpha tex_grass_b808b477
+mat_end
+mat_beg mat_minecraft_block-lily_pad
+    diffuse 1 filter (0.0632,0.2611,0.0968) tex_lily_pad_d50f5afe
+    alpha tex_lily_pad_d50f5afe
+mat_end
+mat_beg mat_minecraft_block-granite
+    diffuse 1 filter (0.586,0.4049,0.3371) tex_granite_dd2e58c7
+    alpha tex_granite_dd2e58c7
+mat_end
+mat_beg mat_minecraft_block-sunflower_front
+    diffuse 1 filter (0.9648,0.7713,0.2122) tex_sunflower_front_fa98dde7
+    alpha tex_sunflower_front_fa98dde7
+mat_end
+mat_beg mat_minecraft_block-oak_leaves
+    diffuse 1 filter (0.2112,0.528,0.0699) tex_oak_leaves_7c2d27dd
+    alpha tex_oak_leaves_7c2d27dd
+mat_end
+mat_beg mat_minecraft_block-water_still
+	alpha (1,1,1,0.5)
+	diffuse 1.0 tex_water_still_3eface31
+	# refractive_index 1.3325
+	# specular 1.0 tex_water_still_3eface31
+	# transmissive 1.0 (1,1,1)
+	# volume 0.5
+	# diffuse 1.0 (0.4,0.7,1.0)
+mat_end
+mat_beg mat_minecraft_block-water_flow
+	alpha (1,1,1,0.5)
+	diffuse 1.0 tex_water_flow_e7f0fff9
+	# refractive_index 1.3325
+	# specular 1.0 tex_water_flow_e7f0fff9
+	# transmissive 1.0 (1,1,1)
+	# volume 0.5
+	# diffuse 1.0 (0.4,0.7,1.0)
+mat_end
+mat_beg mat_minecraft_block-mushroom_stem
+    diffuse 1 filter (0.7969,0.7711,0.7279) tex_mushroom_stem_10a1848e
+    alpha tex_mushroom_stem_10a1848e
+mat_end
+mat_beg mat_minecraft_block-blue_orchid
+    diffuse 1 filter (0.1855,0.6373,0.6599) tex_blue_orchid_c7aabeda
+    alpha tex_blue_orchid_c7aabeda
+mat_end
+mat_beg mat_minecraft_block-birch_leaves
+    diffuse 1 filter (0.3351,0.4337,0.2231) tex_birch_leaves_79b16346
+    alpha tex_birch_leaves_79b16346
+mat_end
+mat_beg mat_minecraft_block-pumpkin_side
+    diffuse 1 filter (0.7668,0.4503,0.0948) tex_pumpkin_side_2643efa3
+    alpha tex_pumpkin_side_2643efa3
+mat_end
+mat_beg mat_minecraft_block-tall_grass_bottom
+    diffuse 1 filter (0.1378,0.3507,0.0449) tex_tall_grass_bottom_68767e52
+    alpha tex_tall_grass_bottom_68767e52
+mat_end
+mat_beg mat_minecraft_block-iron_ore
+    diffuse 1 filter (0.5339,0.5134,0.4992) tex_iron_ore_f87d7fa4
+    alpha tex_iron_ore_f87d7fa4
+mat_end
+mat_beg mat_minecraft_block-lilac_top
+    diffuse 1 filter (0.6064,0.4902,0.5784) tex_lilac_top_e2e05778
+    alpha tex_lilac_top_e2e05778
+mat_end
+mat_beg mat_minecraft_block-spawner
+    diffuse 1 filter (0.1428,0.1818,0.2463) tex_spawner_f8511294
+    alpha tex_spawner_f8511294
+mat_end
+mat_beg mat_minecraft_block-oak_log
+    diffuse 1 filter (0.4278,0.3338,0.1988) tex_oak_log_9aab4cda
+    alpha tex_oak_log_9aab4cda
+mat_end
+mat_beg mat_minecraft_block-peony_bottom
+    diffuse 1 filter (0.3393,0.3976,0.3667) tex_peony_bottom_cc22caf2
+    alpha tex_peony_bottom_cc22caf2
+mat_end
+mat_beg mat_minecraft_block-bedrock
+    diffuse 1 filter (0.3338,0.3338,0.3338) tex_bedrock_5dce1d70
+    alpha tex_bedrock_5dce1d70
+mat_end
+mat_beg mat_minecraft_block-sugar_cane
+    diffuse 1 filter (0.3832,0.6486,0.1705) tex_sugar_cane_dba9c05f
+    alpha tex_sugar_cane_dba9c05f
+mat_end
+mat_beg mat_minecraft_block-azure_bluet
+    diffuse 1 filter (0.6643,0.802,0.4996) tex_azure_bluet_68520cbe
+    alpha tex_azure_bluet_68520cbe
+mat_end
+mat_beg mat_minecraft_block-brown_mushroom
+    diffuse 1 filter (0.602,0.4581,0.3627) tex_brown_mushroom_4932d14a
+    alpha tex_brown_mushroom_4932d14a
+mat_end
+mat_beg mat_minecraft_block-andesite
+    diffuse 1 filter (0.5339,0.5344,0.5364) tex_andesite_cde24575
+    alpha tex_andesite_cde24575
+mat_end
+mat_beg mat_minecraft_block-snow
+    diffuse 1 filter (0.9765,0.997,0.997) tex_snow_90bcdf77
+    alpha tex_snow_90bcdf77
+mat_end
+mat_beg mat_minecraft_block-torch
+    diffuse 1 filter (0.5445,0.4447,0.2508) tex_torch_1dff8fc7
+    alpha tex_torch_1dff8fc7
+mat_end
+mat_beg mat_minecraft_block-gravel
+    diffuse 1 filter (0.5174,0.4998,0.4961) tex_gravel_23a75339
+    alpha tex_gravel_23a75339
+mat_end
+mat_beg mat_minecraft_block-clay
+    diffuse 1 filter (0.6301,0.6528,0.7037) tex_clay_506fe31e
+    alpha tex_clay_506fe31e
+mat_end
+mat_beg mat_minecraft_block-bee_nest_front
+    diffuse 1 filter (0.719,0.5563,0.2985) tex_bee_nest_front_8b05d728
+    alpha tex_bee_nest_front_8b05d728
+mat_end
+mat_beg mat_minecraft_block-obsidian
+    diffuse 1 filter (0.0594,0.0416,0.0963) tex_obsidian_4e8b57b7
+    alpha tex_obsidian_4e8b57b7
+mat_end
+mat_beg mat_minecraft_block-peony_top
+    diffuse 1 filter (0.5085,0.4962,0.547) tex_peony_top_35b7b232
+    alpha tex_peony_top_35b7b232
+mat_end
+mat_beg mat_minecraft_block-grass_block_side
+    diffuse 1 filter (0.4972,0.4201,0.2572) tex_grass_block_side_15f8393d
+    alpha tex_grass_block_side_15f8393d
+mat_end
+mat_beg mat_minecraft_block-mossy_cobblestone
+    diffuse 1 filter (0.4318,0.4647,0.3723) tex_mossy_cobblestone_8801a346
+    alpha tex_mossy_cobblestone_8801a346
+mat_end
+mat_beg mat_minecraft_block-dandelion
+    diffuse 1 filter (0.5792,0.6755,0.1705) tex_dandelion_450e861a
+    alpha tex_dandelion_450e861a
+mat_end
+mat_beg mat_minecraft_block-bee_nest_bottom
+    diffuse 1 filter (0.6295,0.4987,0.3445) tex_bee_nest_bottom_af0b106f
+    alpha tex_bee_nest_bottom_af0b106f
+mat_end
+mat_beg mat_minecraft_block-rail
+    diffuse 1 filter (0.4931,0.4379,0.3473) tex_rail_cda48582
+    alpha tex_rail_cda48582
+mat_end
+mat_beg mat_minecraft_block-bee_nest_side
+    diffuse 1 filter (0.7696,0.5914,0.3034) tex_bee_nest_side_4ccd57ce
+    alpha tex_bee_nest_side_4ccd57ce
+mat_end
+mat_beg mat_minecraft_block-dark_oak_log_top
+    diffuse 1 filter (0.2533,0.1679,0.083) tex_dark_oak_log_top_7b8002cc
+    alpha tex_dark_oak_log_top_7b8002cc
+mat_end
+mat_beg mat_minecraft_block-lapis_ore
+    diffuse 1 filter (0.3901,0.4349,0.521) tex_lapis_ore_45560110
+    alpha tex_lapis_ore_45560110
+mat_end
+mat_beg mat_minecraft_block-lava_still
+    diffuse 1 filter (0.8504,0.41,0.1033) tex_lava_still_a9a4405e
+    alpha tex_lava_still_a9a4405e
+mat_end
+mat_beg mat_minecraft_block-cobblestone
+    diffuse 1 filter (0.5011,0.4992,0.5004) tex_cobblestone_abc90e3f
+    alpha tex_cobblestone_abc90e3f
+mat_end
+mat_beg mat_minecraft_block-oak_log_top
+    diffuse 1 filter (0.5939,0.4771,0.2863) tex_oak_log_top_8eb9ef52
+    alpha tex_oak_log_top_8eb9ef52
+mat_end
+mat_beg mat_minecraft_block-sand
+    diffuse 1 filter (0.8594,0.8126,0.6396) tex_sand_af8842a0
+    alpha tex_sand_af8842a0
+mat_end
+mat_beg mat_minecraft_block-cobweb
+    diffuse 1 filter (0.8964,0.9145,0.9191) tex_cobweb_4ec5f130
+    alpha tex_cobweb_4ec5f130
+mat_end
+mat_beg mat_minecraft_block-dirt
+    diffuse 1 filter (0.5265,0.3776,0.2627) tex_dirt_16e56c4c
+    alpha tex_dirt_16e56c4c
+mat_end
+mat_beg mat_minecraft_block-sunflower_top
+    diffuse 1 filter (0.1953,0.5073,0.1066) tex_sunflower_top_6622a126
+    alpha tex_sunflower_top_6622a126
+mat_end
+mat_beg mat_minecraft_block-birch_log_top
+    diffuse 1 filter (0.7578,0.7036,0.53) tex_birch_log_top_32c11f62
+    alpha tex_birch_log_top_32c11f62
+mat_end
+mat_beg mat_minecraft_block-dark_oak_leaves
+    diffuse 1 filter (0.2206,0.5536,0.0725) tex_dark_oak_leaves_34a31bc2
+    alpha tex_dark_oak_leaves_34a31bc2
+mat_end
+mat_beg mat_minecraft_block-spruce_log
+    diffuse 1 filter (0.2307,0.1477,0.0663) tex_spruce_log_bc8feb9a
+    alpha tex_spruce_log_bc8feb9a
+mat_end
+mat_beg mat_minecraft_block-birch_log
+    diffuse 1 filter (0.8492,0.8432,0.8247) tex_birch_log_e9c4b8a5
+    alpha tex_birch_log_e9c4b8a5
+mat_end
+mat_beg mat_minecraft_block-redstone_ore
+    diffuse 1 filter (0.5226,0.4229,0.4229) tex_redstone_ore_cba27b1e
+    alpha tex_redstone_ore_cba27b1e
+mat_end
+mat_beg mat_minecraft_block-cornflower
+    diffuse 1 filter (0.3124,0.4754,0.5746) tex_cornflower_8529230e
+    alpha tex_cornflower_8529230e
+mat_end
+mat_beg mat_minecraft_block-sunflower_back
+    diffuse 1 filter (0.2143,0.5014,0.136) tex_sunflower_back_1b3b4e23
+    alpha tex_sunflower_back_1b3b4e23
+mat_end
+mat_beg mat_minecraft_block-spruce_leaves
+    diffuse 1 filter (0.247,0.3879,0.247) tex_spruce_leaves_43205b2a
+    alpha tex_spruce_leaves_43205b2a
+mat_end
+mat_beg mat_minecraft_block-grass_block_top
+    diffuse 1 filter (0.364,0.5742,0.2261) tex_grass_block_top_1119e58d
+    alpha tex_grass_block_top_1119e58d
+mat_end
+mat_beg mat_minecraft_block-bone_block_top
+    diffuse 1 filter (0.8228,0.8087,0.7035) tex_bone_block_top_29e38b0e
+    alpha tex_bone_block_top_29e38b0e
+mat_end
+mat_beg mat_minecraft_block-red_mushroom_block
+    diffuse 1 filter (0.7851,0.184,0.1765) tex_red_mushroom_block_fc29c5b3
+    alpha tex_red_mushroom_block_fc29c5b3
+mat_end
+mat_beg mat_minecraft_block-oak_planks
+    diffuse 1 filter (0.6361,0.513,0.3083) tex_oak_planks_8cf14aab
+    alpha tex_oak_planks_8cf14aab
+mat_end
+mat_beg mat_minecraft_block-lily_of_the_valley
+    diffuse 1 filter (0.4829,0.6846,0.373) tex_lily_of_the_valley_b66c9298
+    alpha tex_lily_of_the_valley_b66c9298
+mat_end
+mat_beg mat_minecraft_block-lilac_bottom
+    diffuse 1 filter (0.5376,0.4867,0.4978) tex_lilac_bottom_f1217196
+    alpha tex_lilac_bottom_f1217196
+mat_end
+mat_beg mat_minecraft_block-seagrass
+    diffuse 1 filter (0.201,0.4956,0.0338) tex_seagrass_4cb0c745
+    alpha tex_seagrass_4cb0c745
+mat_end
+mat_beg mat_minecraft_block-tall_seagrass_top
+    diffuse 1 filter (0.2293,0.5431,0.0533) tex_tall_seagrass_top_9a432c60
+    alpha tex_tall_seagrass_top_9a432c60
+mat_end
+mat_beg mat_minecraft_block-coal_ore
+    diffuse 1 filter (0.4558,0.4558,0.4558) tex_coal_ore_f75bb9a8
+    alpha tex_coal_ore_f75bb9a8
+mat_end
+mat_beg mat_minecraft_block-bone_block_side
+    diffuse 1 filter (0.8998,0.8859,0.8149) tex_bone_block_side_793b4d37
+    alpha tex_bone_block_side_793b4d37
+mat_end
+mat_beg mat_minecraft_block-stone
+    diffuse 1 filter (0.4923,0.4923,0.4923) tex_stone_5e195ee8
+    alpha tex_stone_5e195ee8
+mat_end
+mat_beg mat_minecraft_block-tall_grass_top
+    diffuse 1 filter (0.1626,0.4094,0.0538) tex_tall_grass_top_72abdb70
+    alpha tex_tall_grass_top_72abdb70
+mat_end
+mat_beg mat_minecraft_block-grass_block_snow
+    diffuse 1 filter (0.6659,0.5921,0.5227) tex_grass_block_snow_924aaa1d
+    alpha tex_grass_block_snow_924aaa1d
+mat_end
+mat_beg mat_minecraft_block-rose_bush_top
+    diffuse 1 filter (0.5139,0.2593,0.1466) tex_rose_bush_top_af9d191f
+    alpha tex_rose_bush_top_af9d191f
+mat_end
+mat_beg mat_minecraft_block-emerald_ore
+    diffuse 1 filter (0.4604,0.5372,0.4869) tex_emerald_ore_4ff4f976
+    alpha tex_emerald_ore_4ff4f976
+mat_end
+mat_beg mat_minecraft_block-mushroom_block_inside
+    diffuse 1 filter (0.7907,0.6673,0.4713) tex_mushroom_block_inside_7c01df23
+    alpha tex_mushroom_block_inside_7c01df23
+mat_end
+mat_beg mat_minecraft_block-diamond_ore
+    diffuse 1 filter (0.4911,0.5593,0.5534) tex_diamond_ore_caa73e90
+    alpha tex_diamond_ore_caa73e90
+mat_end
+mat_beg mat_minecraft_block-dark_oak_log
+    diffuse 1 filter (0.2368,0.1826,0.1026) tex_dark_oak_log_4a6c9e60
+    alpha tex_dark_oak_log_4a6c9e60
+mat_end
+mat_beg mat_minecraft_block-tall_seagrass_bottom
+    diffuse 1 filter (0.1793,0.4632,0.0167) tex_tall_seagrass_bottom_7f6bb071
+    alpha tex_tall_seagrass_bottom_7f6bb071
+mat_end
+mat_beg mat_minecraft_block-rose_bush_bottom
+    diffuse 1 filter (0.3825,0.3286,0.1472) tex_rose_bush_bottom_8fa9d464
+    alpha tex_rose_bush_bottom_8fa9d464
+mat_end
+mat_beg mat_minecraft_entity-chest-normal
+    diffuse 1 filter (0.4119,0.3043,0.1372) tex_normal_37c1dd89
+    alpha tex_normal_37c1dd89
+mat_end
+mat_beg mat_minecraft_block-red_mushroom
+    diffuse 1 filter (0.8509,0.2957,0.2661) tex_red_mushroom_66b883f0
+    alpha tex_red_mushroom_66b883f0
+mat_end
+mat_beg mat_minecraft_block-oxeye_daisy
+    diffuse 1 filter (0.7033,0.7939,0.5622) tex_oxeye_daisy_0dd5c866
+    alpha tex_oxeye_daisy_0dd5c866
+mat_end
+mat_beg mat_minecraft_block-poppy
+    diffuse 1 filter (0.5045,0.2542,0.148) tex_poppy_62ce659e
+    alpha tex_poppy_62ce659e
+mat_end
+mat_beg mat_minecraft_block-vine
+    diffuse 1 filter (0.1247,0.3194,0.0408) tex_vine_dc5c48e1
+    alpha tex_vine_dc5c48e1
+mat_end
+mat_beg mat_minecraft_block-sunflower_bottom
+    diffuse 1 filter (0.2226,0.5298,0.1212) tex_sunflower_bottom_7529ff88
+    alpha tex_sunflower_bottom_7529ff88
+mat_end
+mat_beg mat_minecraft_block-pumpkin_top
+    diffuse 1 filter (0.7765,0.4654,0.0959) tex_pumpkin_top_cbf6ba5f
+    alpha tex_pumpkin_top_cbf6ba5f
+mat_end
+mat_beg mat_minecraft_block-diorite
+    diffuse 1 filter (0.7401,0.739,0.7411) tex_diorite_0c313e6a
+    alpha tex_diorite_0c313e6a
+mat_end
+mat_beg mat_minecraft_block-spruce_log_top
+    diffuse 1 filter (0.4267,0.3152,0.1836) tex_spruce_log_top_133bf0bf
+    alpha tex_spruce_log_top_133bf0bf
+mat_end
+mat_beg mat_minecraft_block-gold_ore
+    diffuse 1 filter (0.5644,0.5502,0.4919) tex_gold_ore_53c208ff
+    alpha tex_gold_ore_53c208ff
+mat_end
+! scenes/pack/pack-vertices.rt
+! scenes/pack/pack-faces.rt
